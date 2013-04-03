@@ -80,15 +80,15 @@ G) Looking for a WordPress Theme which fully supports schema.org microdata?
 
 * Unfortunately we can not offer support for free plugins. Please [buy the Pro version](http://codecanyon.net/item/purple-heart-rating-wordpress-plugin/4306701?ref=wpbuddy) to get support. Thank you!
 * Read the [Google+ Authorship FAQ](http://wp-buddy.com/documentations/plugins/google-plus-author-information-in-search-results/faq-about-google-plus-author-information-in-search-results/) here (for the PRO-Version but should help you as well)
-* Follow this link to get support by the community: http://wordpress.org/support/plugin/google-author-information-in-search-results-wordpress-plugin
+* Follow this link to get support by the community: http://wordpress.org/support/plugin/purple-heart-rating-free
 
 == Screenshots ==
 
 1. This is how the frontend looks like.
 
-1. This is how it should look like in Googles search results.
+2. This is how it should look like in Googles search results.
 
-2. This is how the backend looks like.
+3. This is how the backend looks like.
 
 
 == Changelog ==
