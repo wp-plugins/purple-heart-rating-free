@@ -41,6 +41,9 @@ G) Looking for a WordPress Theme which fully supports schema.org microdata?
 * go to the [support-forum of this plugin](http://wordpress.org/support/plugin/purple-heart-rating-free) to get support by the community.
 * if you need support by the author of this plugin, please [buy the extended edition](http://codecanyon.net/item/purple-heart-rating-wordpress-plugin/4306701?ref=wpbuddy). Thanks very much!
 
+Images:
+© bevangoldswain – Fotolia.com
+
 == Installation ==
 
 1. Upload the purple-heart-rating-free folder to the /wp-content/plugins/ directory.
