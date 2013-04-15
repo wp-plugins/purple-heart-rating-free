@@ -11,7 +11,7 @@ if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
  * Provides some general Plugin functions
  * Use the on_activation and on_deactivation function in child classes
  *
- * @version 2.7.1
+ * @version 2.7.2
  */
 class WPB_Plugin implements WPB_Plugin_Interface {
 
@@ -101,7 +101,6 @@ class WPB_Plugin implements WPB_Plugin_Interface {
 	 * @since 1.0
 	 */
 	public function __construct( $file = null, $plugin_url = null, $inclusion = 'plugin', $auto_update = true ) {
-
 
 		// stop here if there is no file given
 		if( is_null( $file ) ) return new WP_Error( 'wpbp', 'There is no plugin-file!' );
@@ -581,13 +580,20 @@ class WPB_Plugin implements WPB_Plugin_Interface {
 	 * @since 2.7
 	 */
 	public function upgrade() {
-		if( ! method_exists( $this, 'on_upgrade' ) ) return;
+		// this is for testing only
+		//update_option( 'wpb_plugin_' . $this->get_plugin_name_sanitized() . '_version', '1.4' );
+
+		// update the version (this comes later then the following lines)
+		// this is to make sure to only upgrade once each version
+		add_action( 'init', array( &$this, 'set_new_version' ), 10 );
 
 		// only do the upgrade if the current version is higher than the version before
-		if( version_compare( get_option( 'wpb_plugin_' . $this->get_plugin_name_sanitized() . '_version', 0 ), $this->get_plugin_version(), '<' ) ) {
-			add_action( 'init', array( &$this, 'on_upgrade' ) );
-			update_option( 'wpb_plugin_' . $this->get_plugin_name_sanitized() . '_version', $this->get_plugin_version() );
+		if( version_compare( get_option( 'wpb_plugin_' . $this->get_plugin_name_sanitized() . '_version', 0 ), $this->get_plugin_version(), '>=' ) ) return;
+
+		if( method_exists( $this, 'on_upgrade' ) ) {
+			add_action( 'init', array( &$this, 'on_upgrade' ), 5 );
 		}
+
 	}
 
 
@@ -601,6 +607,13 @@ class WPB_Plugin implements WPB_Plugin_Interface {
 		return 0;
 	}
 
+	/**
+	 * Sets the new version after upgrading
+	 * @since 2.7.2
+	 */
+	public function set_new_version() {
+		update_option( 'wpb_plugin_' . $this->get_plugin_name_sanitized() . '_version', $this->get_plugin_version() );
+	}
+
 
 }
-

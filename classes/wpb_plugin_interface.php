@@ -7,7 +7,7 @@
 if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /**
- * @version 1.3
+ * @version 1.4
  */
 interface WPB_Plugin_Interface {
 	public function load_translation();
@@ -28,4 +28,5 @@ interface WPB_Plugin_Interface {
 	public function track( $tasks );
 	public function is_auto_update();
 	public function upgrade();
+	public function set_new_version();
 }

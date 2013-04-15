@@ -30,7 +30,7 @@ class WPB_Purple_Heart_Rating_Free_Metaboxes {
 	 */
 	public function about() {
 		?>
-	<a href="http://wp-buddy.com/" target="_blank" xmlns="http://www.w3.org/1999/html"><img src="<?php echo $this->_purple_heart->plugins_url( 'assets/img/wp-buddy-logo.png' ); ?>" alt="WPBuddy Logo" /></a><?php
+	<a href="http://wp-buddy.com/" target="_blank" xmlns="http://www.w3.org/1999/html"><img src="https://wpbuddy.libra.uberspace.de/secure/wp-buddy-logo.png" alt="WPBuddy Logo" /></a><?php
 	}
 
 

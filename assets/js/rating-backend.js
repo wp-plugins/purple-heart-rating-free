@@ -142,10 +142,20 @@ jQuery( document ).ready( function() {
 
 	/* Show the edit-icon on the editable places */
 	jQuery( '.wpbph-headline, .wpbph-description, .wpbph-button-more, .popover-title, .popover-content' ).hover( function() {
-		var offset = jQuery( this ).offset();
+		var offset = jQuery( this ).position();
 		var width = jQuery( this ).width();
-		jQuery( '.wpbph-icon-edit' ).show().css( 'left', ( offset.left + width +10 ) );
-		jQuery( '.wpbph-icon-edit' ).css( 'top', offset.top );
+
+		var from_left = offset.left + width + 10;
+		var from_top = offset.top + 10;
+
+		if( jQuery( this ).hasClass( 'popover-title' ) || jQuery( this ).hasClass( 'popover-content' ) ) {
+			var parent_position = jQuery( '.popover' ).position();
+			from_left = parent_position.left + jQuery( '.popover' ).width();
+			from_top = parent_position.top + 5;
+		}
+
+		jQuery( '.wpbph-icon-edit' ).show().css( 'left', ( from_left ) );
+		jQuery( '.wpbph-icon-edit' ).css( 'top', from_top );
 	}, function() {
 		jQuery( '.wpbph-icon-edit' ).hide();
 	} );

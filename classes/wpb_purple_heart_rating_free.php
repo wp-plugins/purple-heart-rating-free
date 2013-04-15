@@ -8,7 +8,7 @@
 if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /**
- * @version 1.0
+ * @version 1.0.1
  */
 class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 
@@ -46,7 +46,7 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 	 * @access private
 	 * @since 1.0
 	 */
-	protected $_plugin_version = '1.0';
+	protected $_plugin_version = '1.0.1';
 
 
 	/**
@@ -115,7 +115,7 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 	}
 
 	public function check_for_pro_version() {
-		if( ! function_exists( 'is_plugin_active' ) ){
+		if( ! function_exists( 'is_plugin_active' ) ) {
 			$is_other_page = true;
 			include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 		}
@@ -145,7 +145,7 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 		if( is_admin() ) return;
 
 		add_action( 'wp_enqueue_scripts', array( &$this, 'enqueue_scripts_frontend' ), 100 );
-		add_filter( 'the_content', array( &$this, 'add_rating_content' ) );
+		add_filter( 'the_content', array( &$this, 'add_rating_content' ), 60, 1 );
 
 		add_action( 'wp_head', array( &$this, 'wp_head' ) );
 	}
@@ -315,49 +315,49 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 
 		?>
 
-	<div class="wrap" id="wpbph-settings">
-		<h2><i class="icon icon-heart wpbph-screen-icon"></i> <?php echo __( 'Purple Heart Rating Settings', $this->_plugin_textdomain ); ?></h2><br />
+		<div class="wrap" id="wpbph-settings">
+			<h2><i class="icon icon-heart wpbph-screen-icon"></i> <?php echo __( 'Purple Heart Rating Settings', $this->_plugin_textdomain ); ?></h2><br />
 
-		<form action="options.php" method="post" class="wpbph-settings-form">
+			<form action="options.php" method="post" class="wpbph-settings-form">
 
-			<?php
-			wp_nonce_field( 'closedpostboxes', 'closedpostboxesnonce', false );
-			wp_nonce_field( 'meta-box-order', 'meta-box-order-nonce', false );
-			?>
-			<input type="hidden" value="<?php echo wp_create_nonce( 'gpaisrpro-options-ajax-nonce' ); ?>" name="gpaisrpro-options-ajax-nonce" id="gpaisrpro-options-ajax-nonce" />
+				<?php
+				wp_nonce_field( 'closedpostboxes', 'closedpostboxesnonce', false );
+				wp_nonce_field( 'meta-box-order', 'meta-box-order-nonce', false );
+				?>
+				<input type="hidden" value="<?php echo wp_create_nonce( 'gpaisrpro-options-ajax-nonce' ); ?>" name="gpaisrpro-options-ajax-nonce" id="gpaisrpro-options-ajax-nonce" />
 
-			<div id="poststuff" class="metabox-holder has-right-sidebar">
+				<div id="poststuff" class="metabox-holder has-right-sidebar">
 
-				<div id="side-info-column" class="inner-sidebar">
-					<?php do_meta_boxes( $this->_settings_menu_slug, 'side', array() ); ?>
-				</div>
-
-				<div id="post-body" class="has-sidebar">
-					<div id="post-body-content" class="has-sidebar-content">
-						<?php do_meta_boxes( $this->_settings_menu_slug, 'normal', array() ); ?>
+					<div id="side-info-column" class="inner-sidebar">
+						<?php do_meta_boxes( $this->_settings_menu_slug, 'side', array() ); ?>
 					</div>
+
+					<div id="post-body" class="has-sidebar">
+						<div id="post-body-content" class="has-sidebar-content">
+							<?php do_meta_boxes( $this->_settings_menu_slug, 'normal', array() ); ?>
+						</div>
+					</div>
+
+					<br class="clear" />
+
+					<script type="text/javascript">
+						//<![CDATA[
+						jQuery( document ).ready( function( $ ) {
+
+							/* close postboxes that should be closed */
+							jQuery( '.if-js-closed' ).removeClass( 'if-js-closed' ).addClass( 'closed' );
+
+							/* postboxes setup */
+							postboxes.add_postbox_toggles( '<?php echo $this->_settings_menu_slug; ?>' );
+
+						} );
+					</script>
 				</div>
+				<!-- poststuff -->
 
-				<br class="clear" />
+			</form>
 
-				<script type="text/javascript">
-					//<![CDATA[
-					jQuery( document ).ready( function( $ ) {
-
-						/* close postboxes that should be closed */
-						jQuery( '.if-js-closed' ).removeClass( 'if-js-closed' ).addClass( 'closed' );
-
-						/* postboxes setup */
-						postboxes.add_postbox_toggles( '<?php echo $this->_settings_menu_slug; ?>' );
-
-					} );
-				</script>
-			</div>
-			<!-- poststuff -->
-
-		</form>
-
-	</div><!-- /wpbph-settings -->
+		</div><!-- /wpbph-settings -->
 
 	<?php
 
@@ -439,8 +439,8 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 	 * Creates the HTML code of the rating
 	 * Define $usage as 'example' to load the latest post (needed internally for backend purposes)
 	 *
-	 * @param int|null   $post
-	 * @param string     $usage Can either be 'example' or 'frontend' (default)
+	 * @param int|null $post
+	 * @param string   $usage Can either be 'example' or 'frontend' (default)
 	 *
 	 * @since 1.0
 	 *
@@ -481,67 +481,69 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 		ob_start();
 
 		?>
-	<aside itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
-		<meta itemprop="url" content="<?php echo get_permalink( $post->ID ); ?>" />
-		<div class="wpbph-frontend" itemprop="aggregateRating" itemscope="itemscope" itemtype="http://schema.org/AggregateRating">
-			<?php if( 'example' == $usage ) echo '<i class="icon icon-edit wpbph-icon-edit"></i>'; ?>
-			<meta itemprop="worstRating" content="1" />
-			<meta itemprop="bestRating" content="100" />
-			<meta itemprop="ratingCount" content="<?php echo $this->count_ratings( $post->ID ); ?>" />
-			<meta itemprop="ratingValue" content="<?php echo $rating_percent_ok; ?>" />
-			<div class="wpbph-info">
-				<div class="wpbph-info-cell">
-					<h1 class="wpbph-headline" data-forid="#wpbph_headline"><?php echo $this->get_option( 'headline' ); ?></h1>
+		<aside itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+			<meta itemprop="url" content="<?php echo get_permalink( $post->ID ); ?>" />
+			<div class="wpbph-frontend" itemprop="aggregateRating" itemscope="itemscope" itemtype="http://schema.org/AggregateRating">
+				<?php if( 'example' == $usage ) echo '<i class="icon icon-edit wpbph-icon-edit"></i>'; ?>
+				<meta itemprop="worstRating" content="1" />
+				<meta itemprop="bestRating" content="100" />
+				<meta itemprop="ratingCount" content="<?php echo $this->count_ratings( $post->ID ); ?>" />
+				<meta itemprop="ratingValue" content="<?php echo $rating_percent_ok; ?>" />
+				<div class="wpbph-info">
+					<div class="wpbph-info-cell">
+						<h1 class="wpbph-headline" data-forid="#wpbph_headline"><?php echo $this->get_option( 'headline' ); ?></h1>
 
-					<p class="wpbph-description" data-forid="#wpbph_description"><?php echo $this->get_option( 'description' ); ?></p>
-					<button class="wpbph-button-more" data-forid="#wpbph_button_more" data-title="<?php echo $this->get_option( 'more_button_headline' ); ?>" data-content="<?php echo $this->get_option( 'more_button_description' ); ?>" data-placement="right" data-trigger="<?php echo ( ( is_admin() ) ? 'click' : 'hover' ); ?>"><?php echo $this->get_option( 'more_button_label' ); ?></button>
-				</div>
-			</div>
-			<!-- /wpbph-info -->
-
-			<div class="wpbph-rating">
-				<img class="wpbph-ajax-loader" style="display:none;" src="<?php echo $this->plugins_url( 'assets/img/ajax-loader.gif' ); ?>" border="0" alt="Ajax Loader" />
-
-				<div class="wpbph-polaroid">
-					<div class="wpbph-table">
-						<div class="wpbph-table-tr" data-post_id="<?php echo $post->ID; ?>">
-							<div class="wpbph-table-td wpbph-table-center wpbph-table-big-heart">
-								<i title="<?php echo __( '+1', $this->get_textdomain() ); ?>" class="icon icon-heart wpbph-heart-big" data-current-icon="icon-heart"></i>
-							</div>
-							<div class="wpbph-table-td wpbph-table-values wpbph-value-right-column">
-								<span class="wpbph-value"><span class="wpbph-value-inner"><?php echo $rating_percent_ok; ?></span>%</span>
-								<span class="wpbph-bad-value"><i title="<?php echo __( '-1', $this->get_textdomain() ); ?>" class="icon icon-heart wpbph-heart-small"></i> <span class="wpbph-bad-value-inner"><?php echo $rating_percent_bad; ?></span>%</span>
-							</div>
-						</div>
-						<div style="clear:both;"></div>
-						<div class="wpbph-table-tr" data-post_id="<?php echo $post->ID; ?>">
-							<div class="wpbph-table-td wpbph-table-center">
-								<button class="wpbph-button-ok" title="<?php echo __( '+1', $this->get_textdomain() ); ?>">
-									<i class="icon icon-chevron-up"></i></button>
-							</div>
-							<div class="wpbph-table-td wpbph-button-right-column">
-								<button class="wpbph-button-bad" title="<?php echo __( '-1', $this->get_textdomain() ); ?>">
-									<i class="icon icon-chevron-down"></i></button>
-							</div>
-						</div>
-						<div style="clear:both;"></div>
+						<p class="wpbph-description" data-forid="#wpbph_description"><?php echo $this->get_option( 'description' ); ?></p>
+						<button class="wpbph-button-more" data-forid="#wpbph_button_more" data-title="<?php echo $this->get_option( 'more_button_headline' ); ?>" data-content="<?php echo $this->get_option( 'more_button_description' ); ?>" data-placement="right" data-trigger="<?php echo ( ( is_admin() ) ? 'click' : 'hover' ); ?>"><?php echo $this->get_option( 'more_button_label' ); ?></button>
 					</div>
-					<!-- /wpbph-table -->
 				</div>
-				<!-- /wpbph-polaroid -->
+				<!-- /wpbph-info -->
 
-				<div class="wpbph-copyright-info">
-					<a href="http://wp-buddy.com/products/plugins/purple-heart-rating-wordpress-plugin/" target="_blank"><?php echo __( 'Rating Plugin by WPBuddy', $this->_plugin_textdomain ); ?></a>
+				<div class="wpbph-rating">
+					<img class="wpbph-ajax-loader" style="display:none;" src="<?php echo $this->plugins_url( 'assets/img/ajax-loader.gif' ); ?>" border="0" alt="Ajax Loader" />
+
+					<div class="wpbph-polaroid">
+						<div class="wpbph-table">
+							<div class="wpbph-table-tr" data-post_id="<?php echo $post->ID; ?>">
+								<div class="wpbph-table-td wpbph-table-center wpbph-table-big-heart">
+									<i title="<?php echo __( '+1', $this->get_textdomain() ); ?>" class="icon icon-heart wpbph-heart-big" data-current-icon="icon-heart"></i>
+								</div>
+								<div class="wpbph-table-td wpbph-table-values wpbph-value-right-column">
+									<span class="wpbph-value"><span class="wpbph-value-inner"><?php echo $rating_percent_ok; ?></span>%</span>
+									<span class="wpbph-bad-value"><i title="<?php echo __( '-1', $this->get_textdomain() ); ?>" class="icon icon-heart wpbph-heart-small"></i> <span class="wpbph-bad-value-inner"><?php echo $rating_percent_bad; ?></span>%</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="wpbph-table-tr" data-post_id="<?php echo $post->ID; ?>">
+								<div class="wpbph-table-td wpbph-table-center">
+									<button class="wpbph-button-ok" title="<?php echo __( '+1', $this->get_textdomain() ); ?>">
+										<i class="icon icon-chevron-up"></i></button>
+								</div>
+								<div class="wpbph-table-td wpbph-button-right-column">
+									<button class="wpbph-button-bad" title="<?php echo __( '-1', $this->get_textdomain() ); ?>">
+										<i class="icon icon-chevron-down"></i></button>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+						</div>
+						<!-- /wpbph-table -->
+					</div>
+					<!-- /wpbph-polaroid -->
+
+					<div class="wpbph-copyright-info">
+						<a href="http://wp-buddy.com/products/plugins/purple-heart-rating-wordpress-plugin/" target="_blank"><?php echo __( 'Rating Plugin by WPBuddy', $this->_plugin_textdomain ); ?></a>
+					</div>
 				</div>
+				<!-- /wpbph-rating -->
 			</div>
-			<!-- /wpbph-rating -->
-		</div>
-		<div style="clear:both;"></div>
-		<!-- /wpbph-frontend -->
-	</aside>
+			<div style="clear:both;"></div>
+			<!-- /wpbph-frontend -->
+		</aside>
 
-	<?php
+		<?php
 		$content = ob_get_clean();
+		// remove new lines, etc.
+		$content = trim( preg_replace( '/\s\s+/', ' ', $content ) );
 		return $content;
 	}
 
@@ -870,58 +872,58 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 		$popup_content = '<h3>' . __( 'Start customizing your purple heart rating plugin', $this->_plugin_textdomain ) . '</h3>';
 		$popup_content .= '<p>' . __( 'Please help to improve this plugin and allow tracking.', $this->_plugin_textdomain ) . '</p>';
 		?>
-	<script type="text/javascript">
-		//<![CDATA[
+		<script type="text/javascript">
+			//<![CDATA[
 
-		(function( $ ) {
-			var wpbph_pointer_options, setup, button;
+			(function( $ ) {
+				var wpbph_pointer_options, setup, button;
 
-			wpbph_pointer_options = $.extend( wpbph_pointer_options, {
-				'position':{'edge':'left', 'align':'center'},
-				'content' :'<?php echo $popup_content; ?>',
-				buttons   :function( event, t ) {
-					button = jQuery( '<a id="pointer-close" style="margin-right:5px" class="button-secondary"><?php echo __( 'Not now!', $this->_plugin_textdomain ); ?></a>' );
-					button.bind( 'click.pointer', function() {
-						t.element.pointer( 'close' );
+				wpbph_pointer_options = $.extend( wpbph_pointer_options, {
+					'position': {'edge': 'left', 'align': 'center'},
+					'content' : '<?php echo $popup_content; ?>',
+					buttons   : function( event, t ) {
+						button = jQuery( '<a id="pointer-close" style="margin-right:5px" class="button-secondary"><?php echo __( 'Not now!', $this->_plugin_textdomain ); ?></a>' );
+						button.bind( 'click.pointer', function() {
+							t.element.pointer( 'close' );
+						} );
+						return button;
+					},
+					close     : function() {
+					}
+				} );
+
+
+				setup = function() {
+					jQuery( '#toplevel_page_wpbph-settings' ).pointer( wpbph_pointer_options ).pointer( 'open' );
+
+					jQuery( '#pointer-close' ).before( '<a id="pointer-primary" class="button button-primary">' + '<?php echo __( 'Okay!', $this->_plugin_textdomain ); ?>' + '</a>' );
+					jQuery( '#pointer-primary' ).click( function() {
+						jQuery.post( ajaxurl, { 'action': 'wpbph_ajax_tracking', 'tracking': 1 }, function( response ) {
+							if( 1 == response.error ) {
+								alert( response.message );
+							} else {
+								jQuery( '#toplevel_page_wpbph-settings' ).pointer( 'close' );
+								window.location = '<?php echo admin_url( 'admin.php?page=wpbph-settings' ); ?>';
+							}
+						}, 'json' );
 					} );
-					return button;
-				},
-				close     :function() {
-				}
-			} );
+					jQuery( '#pointer-close' ).click( function() {
+						jQuery.post( ajaxurl, { 'action': 'wpbph_ajax_tracking', 'tracking': 0 }, function( response ) {
+							if( 1 == response.error ) {
+								alert( response.message );
+							} else {
+								jQuery( '#toplevel_page_wpbph-settings' ).pointer( 'close' );
+								window.location = '<?php echo admin_url( 'admin.php?page=wpbph-settings' ); ?>';
+							}
+						}, 'json' );
+					} );
 
+				};
 
-			setup = function() {
-				jQuery( '#toplevel_page_wpbph-settings' ).pointer( wpbph_pointer_options ).pointer( 'open' );
+				jQuery( document ).ready( setup );
+			})( jQuery );
 
-				jQuery( '#pointer-close' ).before( '<a id="pointer-primary" class="button button-primary">' + '<?php echo __( 'Okay!', $this->_plugin_textdomain ); ?>' + '</a>' );
-				jQuery( '#pointer-primary' ).click( function() {
-					jQuery.post( ajaxurl, { 'action':'wpbph_ajax_tracking', 'tracking':1 }, function( response ) {
-						if( 1 == response.error ) {
-							alert( response.message );
-						} else {
-							jQuery( '#toplevel_page_wpbph-settings' ).pointer( 'close' );
-							window.location = '<?php echo admin_url( 'admin.php?page=wpbph-settings' ); ?>';
-						}
-					}, 'json' );
-				} );
-				jQuery( '#pointer-close' ).click( function() {
-					jQuery.post( ajaxurl, { 'action':'wpbph_ajax_tracking', 'tracking':0 }, function( response ) {
-						if( 1 == response.error ) {
-							alert( response.message );
-						} else {
-							jQuery( '#toplevel_page_wpbph-settings' ).pointer( 'close' );
-							window.location = '<?php echo admin_url( 'admin.php?page=wpbph-settings' ); ?>';
-						}
-					}, 'json' );
-				} );
-
-			};
-
-			jQuery( document ).ready( setup );
-		})( jQuery );
-
-	</script>
+		</script>
 
 	<?php
 
@@ -977,27 +979,31 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 	 */
 	public function wp_head() {
 		?>
-	<!--[if IE 7]>
+		<!--[if IE 7]>
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome-ie7.css" rel="stylesheet" />
 		<style type="text/css">
-		.wpbph-info, .wpbph-table-td {
-			float: left;
-		}
-		.wpbph-table-td {
-			width: 45%;
-		}
-		.wpbph-value {
-			margin: 20px 0 0 10px;
-		}
-		.wpbph-bad-value {
-			margin: 0 0 0 10px;
-		}
-		.wpbph-table-tr {
-			display: block;
-		}
+			.wpbph-info, .wpbph-table-td {
+				float: left;
+			}
+
+			.wpbph-table-td {
+				width: 45%;
+			}
+
+			.wpbph-value {
+				margin: 20px 0 0 10px;
+			}
+
+			.wpbph-bad-value {
+				margin: 0 0 0 10px;
+			}
+
+			.wpbph-table-tr {
+				display: block;
+			}
 
 		</style>
-	<![endif]-->
+		<![endif]-->
 	<?php
 	}
 
