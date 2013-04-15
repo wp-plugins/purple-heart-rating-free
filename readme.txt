@@ -4,7 +4,7 @@ Donate link: http://bit.ly/1198mV3
 Tags: rich snippets, google rich snippets stars, google stars
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 3.5.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
