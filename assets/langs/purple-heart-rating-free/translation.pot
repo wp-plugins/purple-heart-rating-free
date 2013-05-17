@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Purple Heart Rating (Free)\n"
+"POT-Creation-Date: 2013-05-17 12:39+0100\n"
+"PO-Revision-Date: 2013-05-17 12:39+0100\n"
+"Last-Translator: Florian Simeth <florian.simeth@online.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:127
+msgid ""
+"The Purple Heart Plugin (Free Version) has been deactivated because the PRO-"
+"Version is installed."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:129
+#: ../../../classes/wpb_purple_heart_rating_free.php:135
+msgid "Go back to the plugins section"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:133
+msgid ""
+"The Purple Heart Plugin (Free Version) cannot be activated because the PRO-"
+"Version is installed already."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:200
+#: ../../../classes/wpb_purple_heart_rating_free.php:201
+msgid "Purple Heart Rating"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:229
+msgid "Rate us with a heart, or not!"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:230
+msgid "So that we are getting better and you have more benefits of our posts."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:231
+#: ../../../classes/wpb_purple_heart_rating_free.php:232
+msgid "What?"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:233
+msgid ""
+"We want to know what you think about this site. Share your feedback with the "
+"author - and help us to improve this page."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:293
+msgid "Settings updated."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:303
+msgid "General"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:306
+msgid "About"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:308
+msgid "Like this plugin?"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:310
+msgid "Discover"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:312
+msgid "Helpful links"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:314
+msgid "Grab our free newsletter!"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:319
+msgid "Purple Heart Rating Settings"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:509
+#: ../../../classes/wpb_purple_heart_rating_free.php:519
+msgid "+1"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:513
+#: ../../../classes/wpb_purple_heart_rating_free.php:523
+msgid "-1"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:534
+msgid "Rating Plugin by WPBuddy"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:565
+msgid "Sorry, we cannot proceed your rating."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:579
+msgid "Sorry, the post you are trying to rate does not exist."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:592
+msgid "You have already rated this post. Thank you!"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:875
+msgid "Start customizing your purple heart rating plugin"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:876
+msgid "Please help to improve this plugin and allow tracking."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:888
+msgid "Not now!"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:902
+msgid "Okay!"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:942
+msgid "Sorry, we cannot proceed this action."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:959
+msgid "Options updated!"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:973
+msgid "Settings"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:974
+msgid "More Plugins by WPBuddy"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:1026
+msgid "Could not find GD Star Rating table!"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:1039
+msgid ""
+"Successfully imported from GD Star rating! GD Star Rating has been "
+"deactivated."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:1042
+msgid "Could not import your data from the GD Star Rating plugin."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:1065
+msgid "Error while refreshing the current ratings."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:44
+msgid "Installation manual"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:45
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:47
+msgid "Report a bug"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:49
+msgid "Request a function"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:52
+msgid "Submit a translation"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:54
+msgid "More cool stuff by WPBuddy"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:113
+msgid "Your first name"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:114
+msgid "Your E-Mail address"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:116
+msgid "Subscribe for free"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:145
+msgid "Customize"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:148
+msgid "Headline"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:153
+msgid "Description"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:158
+msgid "\"More Button\" label"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:163
+msgid "\"More Button\" headline"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:168
+msgid "\"More Button\" description"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:172
+msgid "Reset to defaults"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:174
+msgid "Options"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:187
+msgid "On which post types?"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:200
+msgid "IP Save Time"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:202
+msgid "hours (Keep empty to save for the maxium duration = 365 days)"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:206
+msgid "Allow tracking?"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:208
+msgid "Yes"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:209
+msgid "No"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:213
+msgid "This helps us to improve the plugin. Thank you!"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:213
+msgid "More info about what we track."
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:218
+msgid "Other"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:221
+msgid "GD Star Rating detected"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:222
+msgid "Import data from the GD Star Rating Plugin"
+msgstr ""
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:225
+msgid ""
+"By clicking this button all ratings generated by the GD Star Rating plugin "
+"will be imported to the Purple Heart Rating Plugin. After that the GD Star "
+"Rating Plugin will be deactivated. Important: this will overwrite your "
+"existing Purple Heart Ratings."
+msgstr ""
