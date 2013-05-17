@@ -99,7 +99,7 @@ G) Looking for a WordPress Theme which fully supports schema.org microdata?
 * Added a translation.pot file so that you can translated the plugin on your own
 
 = 1.0.1 =
-* Solves a problem that WordPress adds <p> and <br> tags between the rating plugin
+* Solves a problem that WordPress adds p and br tags between the rating plugin
 * Updated CSS so that it's compatible with some more themes out there
 * Updated WP-Buddy Plugin Framework
 
