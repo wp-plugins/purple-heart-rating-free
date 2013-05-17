@@ -4,7 +4,7 @@ Donate link: http://bit.ly/1198mV3
 Tags: rich snippets, google rich snippets stars, google stars
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -92,6 +92,11 @@ G) Looking for a WordPress Theme which fully supports schema.org microdata?
 
 
 == Changelog ==
+
+= 1.0.2 =
+* Updated WP-Buddy Plugin Framework
+* Solved a database-problem when upgrading to the PRO-version
+* Added a translation.pot file so that you can translated the plugin on your own
 
 = 1.0.1 =
 * Solves a problem that WordPress adds <p> and <br> tags between the rating plugin

@@ -8,7 +8,7 @@
 if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /**
- * @version 1.0.1
+ * @version 1.0.2
  */
 class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 
@@ -46,7 +46,7 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 	 * @access private
 	 * @since 1.0
 	 */
-	protected $_plugin_version = '1.0.1';
+	protected $_plugin_version = '1.0.2';
 
 
 	/**
@@ -734,7 +734,10 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 	 * @since 1.0
 	 */
 	public function on_deactivation() {
-		WPB_Purple_Heart_Rating_Free_Db::remove_db_tables();
+		if( !is_plugin_active( 'purple-heart-rating/purple-heart-rating.php' ) ) {
+			// only remove the database when the non-free version is not yet installed
+			WPB_Purple_Heart_Rating_Free_Db::remove_db_tables();
+		}
 		$this->track( array( 'plugin_deactivated' => date( 'r' ) ) );
 	}
 

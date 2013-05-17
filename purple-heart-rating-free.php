@@ -3,7 +3,7 @@
 Plugin Name: Purple Heart Rating (Free) by WPBuddy
 Plugin URI: http://wp-buddy.com/plugins/purple-heart-rating/
 Description: The ultimate Rating plugin which will blow you away!
-Version: 1.0.1
+Version: 1.0.2
 Author: WPBuddy
 Author URI: http://wp-buddy.com
 Text Domain: wpbph

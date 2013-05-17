@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Purple Heart Rating (Free)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-03 08:55+0100\n"
-"PO-Revision-Date: 2013-04-03 08:55+0100\n"
+"POT-Creation-Date: 2013-05-17 12:37+0100\n"
+"PO-Revision-Date: 2013-05-17 12:37+0100\n"
 "Last-Translator: Florian Simeth <florian.simeth@online.de>\n"
 "Language-Team: WP-Buddy <info@wp-buddy.com>\n"
 "Language: de_DE\n"
@@ -13,6 +13,7 @@ msgstr ""
 "X-Poedit-KeywordsList: _;__;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
 #: ../../../classes/wpb_purple_heart_rating_free.php:127
@@ -110,58 +111,58 @@ msgstr "-1"
 msgid "Rating Plugin by WPBuddy"
 msgstr "Rating Plugin von WPBuddy"
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:563
+#: ../../../classes/wpb_purple_heart_rating_free.php:565
 msgid "Sorry, we cannot proceed your rating."
 msgstr "Tut uns leid, aber da ist irgend etwas schief gelaufen."
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:577
+#: ../../../classes/wpb_purple_heart_rating_free.php:579
 msgid "Sorry, the post you are trying to rate does not exist."
 msgstr ""
 "Tut uns leid, aber der Artikel den Sie bewerten wollen existiert nicht."
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:590
+#: ../../../classes/wpb_purple_heart_rating_free.php:592
 msgid "You have already rated this post. Thank you!"
 msgstr "Sie haben diesen Artikel bereits bewertet. Vielen Dank!"
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:870
+#: ../../../classes/wpb_purple_heart_rating_free.php:875
 msgid "Start customizing your purple heart rating plugin"
 msgstr "Passe jetzt Dein Purple Heart Plugin nach Deinen Wünschen an."
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:871
+#: ../../../classes/wpb_purple_heart_rating_free.php:876
 msgid "Please help to improve this plugin and allow tracking."
 msgstr ""
 "Bitte helfen Sie mit, dieses Plugin weiter zu verbessern und erlauben Sie "
 "das automatische Tracking."
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:883
+#: ../../../classes/wpb_purple_heart_rating_free.php:888
 msgid "Not now!"
 msgstr "Nicht jetzt!"
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:897
+#: ../../../classes/wpb_purple_heart_rating_free.php:902
 msgid "Okay!"
 msgstr "Okay!"
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:937
+#: ../../../classes/wpb_purple_heart_rating_free.php:942
 msgid "Sorry, we cannot proceed this action."
 msgstr "Tut uns leid, aber da ist irgend etwas schief gelaufen."
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:954
+#: ../../../classes/wpb_purple_heart_rating_free.php:959
 msgid "Options updated!"
 msgstr "Optionen gespeichert!"
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:968
+#: ../../../classes/wpb_purple_heart_rating_free.php:973
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:969
+#: ../../../classes/wpb_purple_heart_rating_free.php:974
 msgid "More Plugins by WPBuddy"
 msgstr "Weitere coole Produkte von WPBuddy"
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:1017
+#: ../../../classes/wpb_purple_heart_rating_free.php:1026
 msgid "Could not find GD Star Rating table!"
 msgstr "GD Star Rating Tabelle wurde nicht gefunden!"
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:1030
+#: ../../../classes/wpb_purple_heart_rating_free.php:1039
 msgid ""
 "Successfully imported from GD Star rating! GD Star Rating has been "
 "deactivated."
@@ -169,11 +170,11 @@ msgstr ""
 "Daten des GD Star Rating Plugins wurden erfolgreich übernommen. GD Star "
 "Rating wurde nun deaktiviert."
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:1033
+#: ../../../classes/wpb_purple_heart_rating_free.php:1042
 msgid "Could not import your data from the GD Star Rating plugin."
 msgstr "Die Daten des GD Star Rating Plugins konnten nicht übernommen werden."
 
-#: ../../../classes/wpb_purple_heart_rating_free.php:1056
+#: ../../../classes/wpb_purple_heart_rating_free.php:1065
 msgid "Error while refreshing the current ratings."
 msgstr "Es trat ein Fehler während der Aktualisierung auf."
 
