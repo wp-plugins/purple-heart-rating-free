@@ -1,0 +1,923 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Purple Heart Rating (Free)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-17 12:37+0100\n"
+"PO-Revision-Date: 2013-05-17 12:37+0100\n"
+"Last-Translator: Florian Simeth <florian.simeth@online.de>\n"
+"Language-Team: WP-Buddy <info@wp-buddy.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:127
+msgid ""
+"The Purple Heart Plugin (Free Version) has been deactivated because the PRO-"
+"Version is installed."
+msgstr ""
+"Die kostenlose Version des Purple Heart Plugins wurde deaktiviert weil die "
+"PRO-Version installiert ist."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:129
+#: ../../../classes/wpb_purple_heart_rating_free.php:135
+msgid "Go back to the plugins section"
+msgstr "Zurück zur Plugin-Übersicht"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:133
+msgid ""
+"The Purple Heart Plugin (Free Version) cannot be activated because the PRO-"
+"Version is installed already."
+msgstr ""
+"Die kostenlose Version des Purple Heart Plugins kann nicht aktiviert werden, "
+"weil die PRO-Version bereits installiert ist."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:200
+#: ../../../classes/wpb_purple_heart_rating_free.php:201
+msgid "Purple Heart Rating"
+msgstr "Purple Heart Bewertung"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:229
+msgid "Rate us with a heart, or not!"
+msgstr "Gib uns ein lila Herz - oder keins!"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:230
+msgid "So that we are getting better and you have more benefits of our posts."
+msgstr ""
+"Damit wir besser werden und Du noch mehr Nutzen und Freude an unseren "
+"Artikeln hast."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:231
+#: ../../../classes/wpb_purple_heart_rating_free.php:232
+msgid "What?"
+msgstr "Was ist das?"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:233
+msgid ""
+"We want to know what you think about this site. Share your feedback with the "
+"author - and help us to improve this page."
+msgstr ""
+"Wir möchten gerne wissen, was Du über diese Seite denkst. Teile dein "
+"Feedback mit dem Autor und hilf uns, diese Seite weiter zu verbessern."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:293
+msgid "Settings updated."
+msgstr "Einstellungen gespeichert!"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:303
+msgid "General"
+msgstr "Allgemeines"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:306
+msgid "About"
+msgstr "Über uns"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:308
+msgid "Like this plugin?"
+msgstr "Du magst dieses Plugin?"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:310
+msgid "Discover"
+msgstr "Entdecken"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:312
+msgid "Helpful links"
+msgstr "Hilfreiche Links"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:314
+msgid "Grab our free newsletter!"
+msgstr "Kostenloser Newsletter!"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:319
+msgid "Purple Heart Rating Settings"
+msgstr "Purple Heart Einstellungen"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:509
+#: ../../../classes/wpb_purple_heart_rating_free.php:519
+msgid "+1"
+msgstr "+1"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:513
+#: ../../../classes/wpb_purple_heart_rating_free.php:523
+msgid "-1"
+msgstr "-1"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:534
+msgid "Rating Plugin by WPBuddy"
+msgstr "Rating Plugin von WPBuddy"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:565
+msgid "Sorry, we cannot proceed your rating."
+msgstr "Tut uns leid, aber da ist irgend etwas schief gelaufen."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:579
+msgid "Sorry, the post you are trying to rate does not exist."
+msgstr ""
+"Tut uns leid, aber der Artikel den Sie bewerten wollen existiert nicht."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:592
+msgid "You have already rated this post. Thank you!"
+msgstr "Sie haben diesen Artikel bereits bewertet. Vielen Dank!"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:875
+msgid "Start customizing your purple heart rating plugin"
+msgstr "Passe jetzt Dein Purple Heart Plugin nach Deinen Wünschen an."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:876
+msgid "Please help to improve this plugin and allow tracking."
+msgstr ""
+"Bitte helfen Sie mit, dieses Plugin weiter zu verbessern und erlauben Sie "
+"das automatische Tracking."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:888
+msgid "Not now!"
+msgstr "Nicht jetzt!"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:902
+msgid "Okay!"
+msgstr "Okay!"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:942
+msgid "Sorry, we cannot proceed this action."
+msgstr "Tut uns leid, aber da ist irgend etwas schief gelaufen."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:959
+msgid "Options updated!"
+msgstr "Optionen gespeichert!"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:973
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:974
+msgid "More Plugins by WPBuddy"
+msgstr "Weitere coole Produkte von WPBuddy"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:1026
+msgid "Could not find GD Star Rating table!"
+msgstr "GD Star Rating Tabelle wurde nicht gefunden!"
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:1039
+msgid ""
+"Successfully imported from GD Star rating! GD Star Rating has been "
+"deactivated."
+msgstr ""
+"Daten des GD Star Rating Plugins wurden erfolgreich übernommen. GD Star "
+"Rating wurde nun deaktiviert."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:1042
+msgid "Could not import your data from the GD Star Rating plugin."
+msgstr "Die Daten des GD Star Rating Plugins konnten nicht übernommen werden."
+
+#: ../../../classes/wpb_purple_heart_rating_free.php:1065
+msgid "Error while refreshing the current ratings."
+msgstr "Es trat ein Fehler während der Aktualisierung auf."
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:44
+msgid "Installation manual"
+msgstr "Installationsanleitung (englisch)"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:45
+msgid "Frequently Asked Questions"
+msgstr "Häufige Fragen (englisch)"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:47
+msgid "Report a bug"
+msgstr "Einen Fehler melden (englisch)"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:49
+msgid "Request a function"
+msgstr "Eine Funktion vorschlagen (englisch)"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:52
+msgid "Submit a translation"
+msgstr "Eine Übersetzung einreichen (englisch)"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:54
+msgid "More cool stuff by WPBuddy"
+msgstr "Weitere coole Produkte von WPBuddy"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:113
+msgid "Your first name"
+msgstr "Ihr Vorname"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:114
+msgid "Your E-Mail address"
+msgstr "Ihre E-Mail Adresse"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:116
+msgid "Subscribe for free"
+msgstr "Kostenlos eintragen"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:145
+msgid "Customize"
+msgstr "Individualisieren"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:148
+msgid "Headline"
+msgstr "Überschrift"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:153
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:158
+msgid "\"More Button\" label"
+msgstr "\"Mehr erfahren\" Button-Beschriftung"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:163
+msgid "\"More Button\" headline"
+msgstr "\"Mehr erfahren\" Button-Überschrift"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:168
+msgid "\"More Button\" description"
+msgstr "\"Mehr erfahren\" Button-Beschreibung"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:172
+msgid "Reset to defaults"
+msgstr "Standardeinstellungen wiederherstellen"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:174
+msgid "Options"
+msgstr "Optionen"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:187
+msgid "On which post types?"
+msgstr "Bei welchen Artikelarten?"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:200
+msgid "IP Save Time"
+msgstr "IP Speicherzeitraum"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:202
+msgid "hours (Keep empty to save for the maxium duration = 365 days)"
+msgstr ""
+"Stunden (Lassen Sie dieses Feld leer für die maximale Zeitdauer = 365 Tage)"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:206
+msgid "Allow tracking?"
+msgstr "Tracking erlauben?"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:208
+msgid "Yes"
+msgstr "Ja"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:209
+msgid "No"
+msgstr "Nein"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:213
+msgid "This helps us to improve the plugin. Thank you!"
+msgstr "Bitte hilf uns, dieses Plugin zu verbessern. Vielen Dank!"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:213
+msgid "More info about what we track."
+msgstr "Mehr Informationen darüber, was wir loggen"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:218
+msgid "Other"
+msgstr "Sonstiges"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:221
+msgid "GD Star Rating detected"
+msgstr "GD Star Rating Plugin wurde gefunden"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:222
+msgid "Import data from the GD Star Rating Plugin"
+msgstr "Daten aus dem GD Star Rating Plugin importieren"
+
+#: ../../../classes/wpb_purple_heart_rating_free_metaboxes.php:225
+msgid ""
+"By clicking this button all ratings generated by the GD Star Rating plugin "
+"will be imported to the Purple Heart Rating Plugin. After that the GD Star "
+"Rating Plugin will be deactivated. Important: this will overwrite your "
+"existing Purple Heart Ratings."
+msgstr ""
+"Wenn Sie diesen auf diesen Button klicken werden alle Inhalte des GD Star "
+"Rating Plugins in Ihr neues Purple Heart Plugin übernommen. Danach wird das "
+"GD Star Rating automatisch deaktiviert. Wichtig: Diese Importfunktion wird "
+"alle existierenden Purple Heart Datenbankeinträge überschreiben."
+
+#~ msgid "Get free updates"
+#~ msgstr "Verbinde Dich mit uns!"
+
+#~ msgid "Interested in further cool tools?"
+#~ msgstr "Weitere coole Produkte von uns"
+
+#~ msgid "Thanks for rating"
+#~ msgstr "Vielen Dank für's Bewerten"
+
+#~ msgid "What else would you like to tell the webmaster about this website?"
+#~ msgstr ""
+#~ "Was möchtest Du dem Seitenbetreiber sonst gerne noch zu dieser Seite "
+#~ "mitteilen?"
+
+#~ msgid "I have nothing to say"
+#~ msgstr "Ich möchte keinen Kommentar abgeben"
+
+#~ msgid "Send the above text to the author"
+#~ msgstr "Sende diesen Kommentar an den Autor"
+
+#~ msgid "Sorry, we cannot proceed your comment."
+#~ msgstr "Tut uns leid, aber irgend etwas ging während des Eintragens schief."
+
+#~ msgid "Sorry, the post you are trying to comment on does not exist."
+#~ msgstr ""
+#~ "Tut uns leid, aber der Artikel den Sie bewerten wollen existiert nicht."
+
+#~ msgid "Sorry, your comment could not be saved."
+#~ msgstr "Tut uns leid, aber Ihr Kommentar konnte nicht gespeichert werden."
+
+#~ msgid "Thanks for your comment!"
+#~ msgstr "Vielen Dank für Ihren Kommentar!"
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonymer Kommentator"
+
+#~ msgid "Sorry, the comment you are trying to rate on does not exist."
+#~ msgstr ""
+#~ "Tut uns leid, aber der Kommentar den Sie bewerten wollen existiert nicht."
+
+#~ msgid "You have already rated this comment. Thank you!"
+#~ msgstr "Sie haben diesen Kommentar bereits bewertet. Vielen Dank!"
+
+#~ msgid "Sorry, your rating could not be saved."
+#~ msgstr "Tut uns leid, aber Ihre Bewertung konnte nicht gespeichert werden."
+
+#~ msgid "Thanks for your rating!"
+#~ msgstr "Vielen Dank für's Bewerten!"
+
+#~ msgid "Icon"
+#~ msgstr "Symbol"
+
+#~ msgid "Color"
+#~ msgstr "Farbe"
+
+#~ msgid "Where to display the rating?"
+#~ msgstr "Wo soll die Bewertung angezeigt werden?"
+
+#~ msgid "Before the content"
+#~ msgstr "Vor dem Inhaltsbereich"
+
+#~ msgid "After the content"
+#~ msgstr "Nach dem Inhaltsbereich"
+
+#~ msgid "Within the comment fields"
+#~ msgstr "Bei den Kommentarfeldern"
+
+#~ msgid "Sort the comments"
+#~ msgstr "Kommentare sortieren"
+
+#~ msgid ""
+#~ "Choose \"Yes\" if you want the plugin to sort the comments depending on "
+#~ "the ratings."
+#~ msgstr ""
+#~ "Wähle \"Ja\" wenn Du das automatische Sortieren der Kommentare zulassen "
+#~ "willst (gute Bewertungen dann erscheinen weiter oben)."
+
+#~ msgid "Display comment-box after rating?"
+#~ msgstr "Anzeigen der Kommentar-Box nach dem Bewerten?"
+
+#~ msgid "Show \"powered by\"?"
+#~ msgstr "\"Bereitgestellt von\" anzeigen?"
+
+#~ msgid ""
+#~ "Whether the \"Rating Plugin by WPBuddy\" link should be shown underneath "
+#~ "the Rating Plugin."
+#~ msgstr ""
+#~ "Wählen Sie ob der Link \"Rating Plugin by WPBuddy\" unter dem Plugin "
+#~ "angezeigt werden soll."
+
+#~ msgid "Purchase Code"
+#~ msgstr "Kaufcode (Purchase Code)"
+
+#~ msgid ""
+#~ "In order to get automatic updates you should enter your purchase code. If "
+#~ "you do not know where you can find your purchase code, read this: %s"
+#~ msgstr ""
+#~ "Um automatische Updates zu erhalten, sollten Sie hier Ihren Kaufcode "
+#~ "(Purchase Code) eintragen. Wenn Sie nicht wissen, wo Sie Ihren Kaufcode "
+#~ "finden können, dann klicken Sie hier: %s"
+
+#~ msgid "How to find your purchase code"
+#~ msgstr "Wo Sie den Kaufcode (Purchase Code) finden können (englisch)"
+
+#~ msgid "Show all Purple Heart comments"
+#~ msgstr "Alle Purple Heart Bewertungen anzeigen"
+
+#~ msgid "Interested?"
+#~ msgstr "Weitere coole Produkte von uns"
+
+#~ msgid "Stay connected"
+#~ msgstr "Verbinde Dich mit uns!"
+
+#~ msgid "Keep up-to-date"
+#~ msgstr "Kostenlose News!"
+
+#~ msgid "What else do you have to say regarding this page?"
+#~ msgstr "Möchtest Du gerne noch etwas bezüglich dieser Seite loswerden?"
+
+#~ msgid "by WPBuddy"
+#~ msgstr "by WPBuddy"
+
+#~ msgid "Shortcodes"
+#~ msgstr "Shortcodes"
+
+#~ msgid "Shortcode"
+#~ msgstr "Shortcode"
+
+#~ msgid "Edit Shortcode"
+#~ msgstr "Shortcode bearbeiten"
+
+#~ msgid "New Shortcode"
+#~ msgstr "Neuer Shortcode"
+
+#~ msgid "View Shortcode"
+#~ msgstr "Shortcode ansehen"
+
+#~ msgid "Search Shortcodes"
+#~ msgstr "Shortcodes durchsuchen"
+
+#~ msgid "No Shortcodes found"
+#~ msgstr "Kein Shortcode gefunde"
+
+#~ msgid "No Shortcodes found in trash"
+#~ msgstr "Keine Shortcodes im Papierkorb gefunden"
+
+#~ msgid "Allows you to add shortcodes."
+#~ msgstr "Erlaubt es Ihnen Shortcodes hinzuzufügen."
+
+#~ msgid "Usage"
+#~ msgstr "Verwendung"
+
+#~ msgid "Attributes"
+#~ msgstr "Attribute"
+
+#~ msgid "Choose the attribute name"
+#~ msgstr "Wählen Sie den Attributnamen"
+
+#~ msgid "Add new attribute"
+#~ msgstr "Neues Attribut hinzufügen"
+
+#~ msgid "HTML / PHP Code"
+#~ msgstr "HTML / PHP Code"
+
+#~ msgid ""
+#~ "If your current PHP installation supports the eval() function you can use "
+#~ "PHP in the textarea below. For this please always start with the &lt;?php "
+#~ "tag. You can use the attributes as the name of the variables."
+#~ msgstr ""
+#~ "Wenn Ihre aktuelle PHP Installation die eval()-Funktion unterstützt "
+#~ "können Sie im unten stehenden Textarea-Feld PHP Code benutzen. Bitte "
+#~ "nutzen Sie dafür nur die &lt;?php - Tags. Sie können die Attribute als "
+#~ "Variablen ansprechen."
+
+#~ msgid "You can use the following placeholders:"
+#~ msgstr "Sie können folgende Platzhalter benutzen:"
+
+#~ msgid "Shortcode updated."
+#~ msgstr "Shortcode aktualisiert."
+
+#~ msgid "Custom field updated."
+#~ msgstr "Feld aktualisiert."
+
+#~ msgid "Custom field deleted."
+#~ msgstr "Feld gelöscht."
+
+#~ msgid "Shortcode restored to revision from %s"
+#~ msgstr "Shortcode Revision vom %s wurde wiederhergestellt. "
+
+#~ msgid "Shortcode can now be used in posts."
+#~ msgstr "Shortcode kann jetzt in Ihren Artikeln und Seiten benutzt werden."
+
+#~ msgid "Shortcode saved."
+#~ msgstr "Shortcode gespeichert."
+
+#~ msgid "Shortcode submitted."
+#~ msgstr "Shortcode eingereicht."
+
+#~ msgid "Shortcode scheduled."
+#~ msgstr "Shortcode geplant."
+
+#~ msgid "Shortcode draft updated."
+#~ msgstr "Shortcode-Entwurf aktualisiert."
+
+#~ msgid "Not named shortcode"
+#~ msgstr "Nicht näher beschriebener Shortcode"
+
+#~ msgid "No shortcode so far"
+#~ msgstr "Kein Shortcode. Bis jetzt..."
+
+#~ msgid "Match the roles with the capabilities"
+#~ msgstr "Verbinden Sie die einzelnen Rollen mit den einzelnen Fähigkeiten"
+
+#~ msgid "Shortcode settings"
+#~ msgstr "Shortcode Einstellungen"
+
+#~ msgid "Role/Capbability"
+#~ msgstr "Rolle/Fähigkeit"
+
+#~ msgid ""
+#~ "You have been redirected because you do not have permission to access "
+#~ "that page."
+#~ msgstr ""
+#~ "Sie wurden umgeleitet weil Sie keine Berechtigung haben auf diese Seite "
+#~ "zuzugreifen."
+
+#~ msgid "Google Plus Author Link"
+#~ msgstr "Google Plus Author Link"
+
+#~ msgid "Please enter the URL to your Google+ Profile."
+#~ msgstr "Geben Sie die URL zu Ihrem Google+ Profil an."
+
+#~ msgid "Google Plus Author (Extended)"
+#~ msgstr "Google Plus Author (Erweiterte Version)"
+
+#~ msgid "Help"
+#~ msgstr "Hilfe"
+
+#~ msgid "Earn money"
+#~ msgstr "Empfehlen und verdienen"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Google Plus Author Information in Search Results (Extended Edition)"
+#~ msgstr ""
+#~ "Google Plus Author Information in Search Results (Erweiterte Version)"
+
+#~ msgid ""
+#~ "This plugin will replace your author link in your theme with your Google+ "
+#~ "Profile link to make sure that your Google+ profile picture will be shown "
+#~ "at the Google search results."
+#~ msgstr ""
+#~ "Dieses Plugin ersetzt den Autoren-Link im Theme mit einem speziellen "
+#~ "Google+-Link. Damit wird in den Google Suchergebnissen jeweils ein "
+#~ "Profilbild des Autors mit angezeigt."
+
+#~ msgid ""
+#~ "Alternatively the link can be included in the content if your theme does "
+#~ "not show the author  link."
+#~ msgstr ""
+#~ "Alternativ kann der Link auch im Inhaltsbereich eingefügt werden wenn das "
+#~ "aktuell gewählte Theme keine Autorenlinks anzeigt."
+
+#~ msgid "A) Set up authorship by linking your content to your Google+ profile"
+#~ msgstr ""
+#~ "A) Richten Sie die Urheberschaft ein, indem Sie Ihre Inhalte mit Ihrem "
+#~ "Google+ Profil verknüpfen"
+
+#~ msgid "Follow this link to open your Google+ profile: %s"
+#~ msgstr "Folgen Sie diesen Link um Ihre Google+ Profilseite zu öffnen: %s"
+
+#~ msgid ""
+#~ "Copy your Profile-URL from the address bar to clipboard (see picture "
+#~ "below):"
+#~ msgstr ""
+#~ "Kopieren Sie die Profil-URL aus der Adresszeile des Browser in die "
+#~ "Zwischenablage (siehe Bild unten):"
+
+#~ msgid ""
+#~ "Go to your Wordpress Admin Panel and click Users » Your Profile. Paste "
+#~ "the above mentioned URL to the field where it says „Google Plus Author "
+#~ "Link“."
+#~ msgstr ""
+#~ "Wechseln Sie zur Wordpress Administrationsoberfläche und klicken Sie auf "
+#~ "Benutzer » Dein Profil. Fügen Sie die oben genannte URL in das Feld "
+#~ "\"Google Plus Author Link\" ein."
+
+#~ msgid "Click Update Profile."
+#~ msgstr "Klicken Sie auf \"Profil aktualisieren\"."
+
+#~ msgid ""
+#~ "Repeat the above steps with all the other Wordpress authors on your blog."
+#~ msgstr ""
+#~ "Wiederholen Sie die oben genannten Schritte mit allen anderen Wordpress "
+#~ "Autoren auf Ihrem Blog."
+
+#~ msgid ""
+#~ "B) Add a reciprocal link back from your profile to the site you just "
+#~ "updated"
+#~ msgstr ""
+#~ "B) Fügen Sie einen Link hinzu, der von Ihrem Profil zu der Website "
+#~ "zurückführt, die Sie soeben aktualisiert haben."
+
+#~ msgid "Follow this link to edit the Contributor To section: %s"
+#~ msgstr ""
+#~ "Folgen Sie diesem Link um den Abschnitt \"Macht mit bei\" zu bearbeiten: "
+#~ "%s"
+
+#~ msgid ""
+#~ "In the dialog that appears, click Add custom link, and then enter your "
+#~ "website URL."
+#~ msgstr ""
+#~ "Klicken Sie in dem daraufhin angezeigten Dialogfeld auf "
+#~ "\"Benutzerdefinierten Link hinzufügen\" und geben Sie dann die URL der "
+#~ "Website ein."
+
+#~ msgid ""
+#~ "If you want, click the drop-down list to specify who can see the link."
+#~ msgstr ""
+#~ "Wenn Sie möchten, können Sie in der Dropdown-Liste festlegen, wer den "
+#~ "Link sehen kann."
+
+#~ msgid "Click Save."
+#~ msgstr "Klicken Sie auf Speichern."
+
+#~ msgid "C) Test"
+#~ msgstr "C) Test"
+
+#~ msgid ""
+#~ "To see what author data Google can extract from your page, use the Rich "
+#~ "Snippet Testing Tool. For this use the buttons to your right."
+#~ msgstr ""
+#~ "Um sehen zu können welche Autordaten Google aus Ihrer Seite extrahieren "
+#~ "kann, können Sie den Rich Snippets-Tester benutzen. Sie können die "
+#~ "Schaltflächen zu Ihrer rechten dazu benutzen."
+
+#~ msgid ""
+#~ "If Google cannot extract your profile picture, please read the FAQ which "
+#~ "you can find in the documentation delivered with this plugin."
+#~ msgstr ""
+#~ "Wenn Google Ihr Profilbild nicht extrahieren kann lesen Sie bitte die "
+#~ "FAQ, die Sie in der Dokumentation finden, die mit diesem Plugin "
+#~ "ausgeliefert wurde."
+
+#~ msgid "Open the documentation now."
+#~ msgstr "Die Dokumentation jetzt öffnen."
+
+#~ msgid "Thanks that you have purchased this plugin!"
+#~ msgstr "Vielen Dank dass Sie dieses Plugin erworben haben!"
+
+#~ msgid "Did you know that you can earn money by recommending it?"
+#~ msgstr ""
+#~ "Wussten Sie, dass Sie Geld damit verdienen können, wenn Sie es "
+#~ "weiterempfehlen?"
+
+#~ msgid "Click here for more information."
+#~ msgstr "Klicken Sie hier um mehr darüber zu erfahren."
+
+#~ msgid "Test whether the link was integrated correctly."
+#~ msgstr "Testen Sie, ob der Link korrekt integriert wurde."
+
+#~ msgid "Testing..."
+#~ msgstr "Teste..."
+
+#~ msgid "Test correct integration again"
+#~ msgstr "Integration erneut testen"
+
+#~ msgid ""
+#~ "Test your last published page or post with Google`s Rich Snippet Testing "
+#~ "Tool"
+#~ msgstr ""
+#~ "Testen Sie Ihre aktuellste Seite oder den aktuellsten Artikel mit dem "
+#~ "Rich Snippet Testung Tool"
+
+#~ msgid "Test latest page"
+#~ msgstr "Aktuellste Seite testen"
+
+#~ msgid "Test latest post"
+#~ msgstr "Aktuellsten Artikel testen"
+
+#~ msgid "Choose the post types to use with the plugin"
+#~ msgstr ""
+#~ "Wählen Sie die Artikeltypen die mit diesem Plugin verwendet werden sollen."
+
+#~ msgid "Display in Feed?"
+#~ msgstr "Im Feed anzeigen?"
+
+#~ msgid "Replace author link with the Google Profile URL?"
+#~ msgstr "Ersetze Autorenlink mit GooglePlus Profillink?"
+
+#~ msgid "Show or hide the link?"
+#~ msgstr "Link anzeigen oder verstecken?"
+
+#~ msgid "Where to show the link in the content"
+#~ msgstr "Wo soll der Link im Inhaltsbereich angezeigt werden?"
+
+#~ msgid "Open the link in a new window?"
+#~ msgstr "Öffne den Link in einem neuen Fenster?"
+
+#~ msgid "Link text"
+#~ msgstr "Linktext"
+
+#~ msgid ""
+#~ "Not every theme shows the Author-Link right beside a page or an article. "
+#~ "In this case activate the link to be included in the content."
+#~ msgstr ""
+#~ "Nicht jedes Theme zeigt einen Autorenlink neben einer Seite oder einem "
+#~ "Artikel an. In diesem Fall können Sie den Link direkt im Inhaltsbereich "
+#~ "einfügen lassen."
+
+#~ msgid "Show it in the widget-area instead."
+#~ msgstr "Zeige ihn stattdessen im Widget-Bereich"
+
+#~ msgid "Show it in the content-area instead (see below)"
+#~ msgstr "Zeige ihn stattdessen nach dem Inhaltsbereich (siehe unten)"
+
+#~ msgid "Hide"
+#~ msgstr "Verstecken"
+
+#~ msgid "Show"
+#~ msgstr "Anzeigen"
+
+#~ msgid "Before and after the content"
+#~ msgstr "Vor und nach dem Inhaltsbereich"
+
+#~ msgid "Please select at least one post type!"
+#~ msgstr "Bitte wählen Sie zumindest einen Artikeltyp aus."
+
+#~ msgid ""
+#~ "At the moment, there is no article of the type \"%1$s\". Please create at "
+#~ "least one article of the type \"%2$s\" to continue testing."
+#~ msgstr ""
+#~ "Im Moment existiert keine Seite des Typs \"%1$s\". Bitte erstellen Sie "
+#~ "mindestens eine Seite des Typs \"%2$s\" um mit dem Testen vorzufahren."
+
+#~ msgid ""
+#~ "The page with the page type \"%1$s\" could not be verified. The site "
+#~ "delivered a page with the status code %2$s."
+#~ msgstr ""
+#~ "Die Seite mit dem Seitentyp \"%1$s\" konnte nicht abgerufen werden. Sie "
+#~ "lieferte den Status-Code %2$s."
+
+#~ msgid ""
+#~ "The author of the following page has not yet set his link to the Google+ "
+#~ "profile: %s"
+#~ msgstr ""
+#~ "Der Autor der folgenden Seite hat seinen Google+ Link noch nicht "
+#~ "eingefügt: %s"
+
+#~ msgid ""
+#~ "Your Google+ link could not be found on this page: %1$s. Page type: %2$s"
+#~ msgstr ""
+#~ "Der Google+ Link auf folgender Seite konnte nicht gefunden werden: %1$s. "
+#~ "Der Artikeltyp ist: %2$s"
+
+#~ msgid "The authors Google+ link was found in post type \"%s\""
+#~ msgstr "Der Google+ Link des Autors wurde im Artikeltyp %s gefunden"
+
+#~ msgid ""
+#~ "The current article (post type: %1$s) has no content which can be "
+#~ "searched: %2$s"
+#~ msgstr ""
+#~ "Die aktuelle Seite vom Typ %1$s hat keinen Inhalt der durchsucht werden "
+#~ "kann: %2$s"
+
+#~ msgid "Google+ Author"
+#~ msgstr "Google+ Author"
+
+#~ msgid "Add the Google+ Authorship Link to your sidebar."
+#~ msgstr "Fügen Sie den Google+ Authorship Link zur Sidebar hinzu."
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "An error occurred"
+#~ msgstr "Ein Fehler trat auf"
+
+#~ msgid "Create a Google+ Profile"
+#~ msgstr "Erstellen Sie ein Google+ Profil"
+
+#~ msgid "Login to Google+ if you do have an account yet"
+#~ msgstr "Loggen Sie sich bei Google+ wenn Sie bereits einen Account besitzen"
+
+#~ msgid "Click here to open your profile"
+#~ msgstr "Klicken Sie hier um Ihr Profil zu öffnen"
+
+#~ msgid ""
+#~ "Find your Google+ Profile link by visiting your own page and copy the "
+#~ "link (shown and marked in the image below) to clipboard"
+#~ msgstr ""
+#~ "Finden Sie Ihren eigenen Google+ Profillink indem Sie Ihre eigenen "
+#~ "Profilseite besuchen. Kopieren Sie dann den entsprechenden Link in die "
+#~ "Zwischenablage (siehe Bild unten)"
+
+#~ msgid "Go to your profile page"
+#~ msgstr "Wechseln Sie zu Ihrer Profilseite"
+
+#~ msgid "and paste your profile link where it says \"Google Plus Link\""
+#~ msgstr ""
+#~ "und fügen Sie den gerade kopierten Google+ Profillink in das Feld "
+#~ "\"Google Plus Author Link\""
+
+#~ msgid ""
+#~ "Do not add the tag \"?ref=author\" because that will be added "
+#~ "automatically."
+#~ msgstr ""
+#~ "Fügen Sie nicht \"?ref=author\" am Ende an. Es wird automatisch "
+#~ "angehängt. "
+
+#~ msgid ""
+#~ "Go to Settings > Google Plus Author and make changes if needed (this page "
+#~ "- see below)"
+#~ msgstr ""
+#~ "Gehen Sie zur Seite Einstellungen > Google Plus Author (Erweiterte "
+#~ "Version) und legen Sie alle nötigen Einstellungen fest (siehe unten)"
+
+#~ msgid ""
+#~ "http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1408986"
+#~ msgstr ""
+#~ "http://support.google.com/webmasters/bin/answer.py?hl=de&answer=1408986"
+
+#~ msgid ""
+#~ "If you can see your profile picture everything is okay. If not, you have "
+#~ "made something wrong."
+#~ msgstr ""
+#~ "Wenn Sie Ihr Profilbild sehen können ist alles OK. Wenn nicht, haben Sie "
+#~ "etwas falsch gemacht."
+
+#~ msgid ""
+#~ "Note that there is no guarantee that a Rich Snippet will be shown for "
+#~ "your page on actual search results!"
+#~ msgstr ""
+#~ "Bitte beachten Sie, dass Google keine Garantie dafür gibt, dass Rich "
+#~ "Snippets in den Suchergebnissen angezeigt werden."
+
+#~ msgid "Google+ Authorship"
+#~ msgstr "Google+ Authorship"
+
+#~ msgid "Cannot read the page: %s"
+#~ msgstr "Folgende Seite konnte nicht gelesen werden: %s"
+
+#~ msgid "Please use the Rich Snippet Testing Tool instead (see below)."
+#~ msgstr ""
+#~ "Bitte nutzen Sie stattdessen das Rich Snippet Testing Tool (siehe unten)."
+
+#~ msgid "Go to the plugins homepage to get more information."
+#~ msgstr ""
+#~ "Wechseln Sie zur Plugin-Homepage um weitere Informationen zu erhalten."
+
+#~ msgid "What to do"
+#~ msgstr "Was zu tun ist"
+
+#~ msgid "Share"
+#~ msgstr "Teilen"
+
+#~ msgid "Login to Google+"
+#~ msgstr "Loggen Sie sich bei Google+ ein"
+
+#~ msgid "Only applied when link is displayed after the content"
+#~ msgstr ""
+#~ "Wird nur angewandt, wenn der Link nach dem Inhaltsbereich angezeigt wird"
+
+#~ msgid "Check this if you want to display the Google+ Link inside the feeds."
+#~ msgstr ""
+#~ "Wird dies aktiviert, so werden die Google+ Links auch in den Feeds "
+#~ "angezeigt."
+
+#~ msgid "In Feed?"
+#~ msgstr "Im Feed anzei"
+
+#~ msgid "If you like this plugin, please click: "
+#~ msgstr "Wenn du das Plugin magst, bitte klicke hier:"
+
+#~ msgid ""
+#~ "If you have submitted an RSS-Feed to iTunes and want to change the url to "
+#~ "a new feed address you may know that iTunes does not provide a form or "
+#~ "something like this. Instead you need a little code-snippet in your RSS "
+#~ "2.0-Feed to change the URL. This plugin will help you to do this."
+#~ msgstr ""
+#~ "Wenn Du einen RSS-Feed in iTunes importiert hast und diese URL nun ändern "
+#~ "willst, wirst du feststellen, dass das gar nicht so einfach ist. Man "
+#~ "benötigt einen kleinen Code direkt im RSS-Feed um die Weiterleitung "
+#~ "einzuleiten. Dieses Plugin hilft dir dabei."
+
+#~ msgid "Check my feed with the W3C Feed Validator"
+#~ msgstr "Meinen Feed auf Gültigkeit prüfen (W3C Feed Validator)"
+
+#~ msgid "RSS iTunes Redirection Settings"
+#~ msgstr "Einstellungen"
+
+#~ msgid "New URL to redirect"
+#~ msgstr "Neue Feed-URL"
+
+#~ msgid "Add the namespace?"
+#~ msgstr "Namespace hinzufügen?"
+
+#~ msgid "Will add the namespace"
+#~ msgstr "Folgender Namespace wird hinzugefügt"
+
+#~ msgid ""
+#~ "If you are using a podcast plugin please check if this plugin adds the "
+#~ "namespace. If so, you do not need it again. If you are not using any of "
+#~ "these plugins you normally need the namespace. Just check your feed "
+#~ "whether you get an error or not:"
+#~ msgstr ""
+#~ "Wenn du ein Podcast-Plugin benutzt, welches den Namespace <strong>xmlns:"
+#~ "itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"</strong> zum Feed "
+#~ "hinzufügt, brauchst du den Namespace nicht noch einmal hinzufügen. Wenn "
+#~ "du kein Podcast-Plugin benutzt benötigst du den Namespace normalerweise "
+#~ "schon. Öffne einfach deinen Feed und sehe nach, ob ein Fehler entsteht:"
+
+#~ msgid ""
+#~ "If you are using feedburner: Click on Troubleshootize -> Resync to update "
+#~ "your feed on this platform as well."
+#~ msgstr ""
+#~ "Wenn du Feedburner benutzt: Clicke auf Troubleshootize -> Resync um den "
+#~ "Feed auch dort zu aktualisieren."
