@@ -1,10 +1,10 @@
 === Purple Heart Rating (Free) ===
 Contributors: wp-buddy
-Donate link: http://bit.ly/1198mV3
-Tags: rich snippets, google rich snippets stars, google stars
+Donate link: http://wp-buddy.com/inlink/purple-heart-wp-donate
+Tags: rich snippets, google rich snippets stars, google stars, search results
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,34 +12,41 @@ This plugin helps you to generate these stars in search results by including som
 
 == Description ==
 
-This plugin helps you to generate these stars in search results by including some special HTML-tags called microdata. But even more: It allows the user to rate the current page, post or custom post type.
+Are you looking for a cool WordPress rating plugin which …
+* generate stars in Google’s search results,
+* offers your readers a pro-active way to give feedback about your site,
+* is highly customizable to you your needs?
+
+Look no further, because you may have found just what you have been looking for: [Purple Heart Rating WordPress Plugin](http://wp-buddy.com/inlink/purple-heart-wp)! Our goal is your (blogging) success!
+
+And this is how the free version works:
 
 A) Set up your Purple Heart Rating Plugin within WordPress Admin Panel
 
-B) Wait till some users have rated your posts amnd/or pages
+B) Wait till some users have rated your posts and/or pages
 
 C) To see what author data Google can extract from your page, use the Rich Snippet Testing Tool.
 
 D) Anything doesn't work?
 
-* Read the [Purple Heart Rating WordPress Plugin FAQ](http://bit.ly/11Zvvse) here (for the PRO-Version but should help you as well)
+* Read the [Purple Heart Rating WordPress Plugin FAQ](http://wp-buddy.com/inlink/purple-heart-faq-wp) here (for the PRO-Version but should help you as well)
 
-E) Need more options like another icon?
+E) Need more styling options as well as more icons?
 
-* Buy the [extended edition](http://bit.ly/1198mV3) of this plugin!
+* Check out the [extended edition](http://wp-buddy.com/inlink/purple-heart-wp) of this rating plugin for WordPress!
 
 F) Need support?
 
-* Unfortunately we can not offer support for free plugins. Please [buy the Pro version](http://bit.ly/1198mV3) to get support. Thank you!
+* Unfortunately we can not offer support for free plugins. Please [buy the Pro version](http://wp-buddy.com/inlink/purple-heart-wp) to get support. Thank you!
 
 G) Looking for a WordPress Theme which fully supports schema.org microdata?
 
-* Check out the [Schema.org WordPress Theme](http://wp-buddy.com/products/themes/schema-org-wordpress-theme/)
+* Check out the [Schema.org WordPress Theme](http://bit.ly/1198uUA)
 
 = If you have any further questions, please =
 
 * go to the [support-forum of this plugin](http://wordpress.org/support/plugin/purple-heart-rating-free) to get support by the community.
-* if you need support by the author of this plugin, please [buy the extended edition](http://bit.ly/1198mV3). Thanks very much!
+* if you need support by the author of this plugin, please [buy the extended edition](http://wp-buddy.com/inlink/purple-heart-wp). Thanks very much!
 
 == Installation ==
 
@@ -55,15 +62,15 @@ C) To see what author data Google can extract from your page, use the Rich Snipp
 
 D) Anything doesn't work?
 
-* Read the [Purple Heart Rating WordPress Plugin FAQ](http://bit.ly/11Zvvse) here (for the PRO-Version but should help you as well)
+* Read the [Purple Heart Rating WordPress Plugin FAQ](http://wp-buddy.com/inlink/purple-heart-faq-wp) here (for the PRO-Version but should help you as well)
 
-E) Need more options like another icon?
+E) Need more styling options as well as more icons?
 
-* Buy the [extended edition](http://bit.ly/1198mV3) of this plugin!
+* Check out the [extended edition](http://wp-buddy.com/inlink/purple-heart-wp) of this rating plugin for WordPress!
 
 F) Need support?
 
-* Unfortunately we can not offer support for free plugins. Please [buy the Pro version](http://bit.ly/1198mV3) to get support. Thank you!
+* Unfortunately we can not offer support for free plugins. Please [buy the Pro version](http://wp-buddy.com/inlink/purple-heart-wp) to get support. Thank you!
 
 G) Looking for a WordPress Theme which fully supports schema.org microdata?
 
@@ -72,14 +79,14 @@ G) Looking for a WordPress Theme which fully supports schema.org microdata?
 = If you have any further questions, please =
 
 * go to the [support-forum of this plugin](http://wordpress.org/support/plugin/purple-heart-rating-free) to get support by the community.
-* if you need support by the author of this plugin, please [buy the extended edition](http://bit.ly/1198mV3). Thanks very much!
+* if you need support by the author of this plugin, please [buy the extended edition](http://wp-buddy.com/inlink/purple-heart-wp). Thanks very much!
 
 == Frequently asked questions ==
 
 = Any questions? =
 
-* Unfortunately we can not offer support for free plugins. Please [buy the Pro version](http://bit.ly/1198mV3) to get support. Thank you!
-* Read the [Purple Heart Rating FAQ](http://bit.ly/11Zvvse) here (for the PRO-Version but should help you as well)
+* Unfortunately we can not offer support for free plugins. Please [buy the Pro version](http://wp-buddy.com/inlink/purple-heart-wp) to get support. Thank you!
+* Read the [Purple Heart Rating FAQ](http://wp-buddy.com/inlink/purple-heart-faq-wp) here (for the PRO-Version but should help you as well)
 * Follow this link to get support by the community: http://wordpress.org/support/plugin/purple-heart-rating-free
 
 == Screenshots ==
@@ -92,6 +99,9 @@ G) Looking for a WordPress Theme which fully supports schema.org microdata?
 
 
 == Changelog ==
+
+= 1.0.3 =
+* Fixed a problem where older logging entries get deleted to early
 
 = 1.0.2 =
 * Updated WP-Buddy Plugin Framework

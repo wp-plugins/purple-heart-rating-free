@@ -8,7 +8,7 @@
 if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /**
- * @version 1.0.2
+ * @version 1.0.3
  */
 class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 
@@ -46,7 +46,7 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 	 * @access private
 	 * @since 1.0
 	 */
-	protected $_plugin_version = '1.0.2';
+	protected $_plugin_version = '1.0.3';
 
 
 	/**
