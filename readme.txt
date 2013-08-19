@@ -14,17 +14,16 @@ This rating plugin allows your readers to rate and comment. It creates these sta
 
 **Purple Heart Rating Plugin for Wordpress**
 
-This cool and customizable rating plugin is the \'new kid on the blog\' and was created by online marketers for online marketers and with them in mind. We at <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy - your specialist for Wordpress Plugins\">WP Buddy</a> wanted to create something that \'scratches our own itch\', meaning: a rating plugin that
+This cool and customizable rating plugin is the 'new kid on the blog' and was created by online marketers for online marketers and with them in mind. We at <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy - your specialist for Wordpress Plugins\">WP Buddy</a> wanted to create something that 'scratches our own itch', meaning: a rating plugin that
 
 *   is easy to set up,
 *   makes it easy for the website visitors to rate and also invites them to comment,
 *   is customizable to your own gusto, and
-
 *   leaves away any unnecessary gizmos.
 
 There is a **free and a premium version** for this plugin. Naturally, while the free version will help to create these much wanted stars in the search results through the implementation of schema.org microdata, it lacks some of the key features that the premium version has. To see a comparison of the free and premium version of Purple Heart Rating Plugin, see here: <a href=\"http://wp-buddy.com/heartrating-wordpress\" target=\"_blank\" title=\"Free and Premium Version of Purple Heart Rating Plugin\">http://wp-buddy.com/heartrating-wordpress</a>
 
- 
+[youtube http://www.youtube.com/watch?v=0Q0vS2B_QsQ]
 
 **FEATURES & BENEFITS**
 
@@ -39,11 +38,11 @@ There is a **free and a premium version** for this plugin. Naturally, while the 
 *   *Plugin shortcode**: by using the shortcode [purple\_heart\_rating] you can place the plugin practically anywhere on any page, rather than just on the top or bottom
 *   *Rating of comments**: allows your website visitors to give a heart to comments from others
 *   *Sorting of comments based on rating**: The best-rated comments will move up so that they can be seen immediately by others, adding to the value of the conversation
-*   *Support within 48 hours**: Issues can always appear in the case of plugins, since there might be a conflict with other plugins or with the used theme; we\'ll be here when needed (note: please understand that we do not offer support for the free version but you are welcome to inform us about technical bugs related to the Purple Heart Rating Plugin, of course)
+*   *Support within 48 hours**: Issues can always appear in the case of plugins, since there might be a conflict with other plugins or with the used theme; we'll be here when needed (note: please understand that we do not offer support for the free version but you are welcome to inform us about technical bugs related to the Purple Heart Rating Plugin, of course)
 
  
 
-You are not convinced that stars in the search results can create trust? Don\'t take our word for it, but Google\'s! Google says that Rich Snippets (where the stars are created) are highly wanted: \"We look forward to seeing structured markup continue to grow on the web, powering richer search results and new kinds of applications.\" (see ful article on <a href=\"http://googleblog.blogspot.de/2011/06/introducing-schemaorg-search-engines.html\" target=\"_self\">Google\'s blog</a>)
+You are not convinced that stars in the search results can create trust? Don't take our word for it, but Google's! Google says that Rich Snippets (where the stars are created) are highly wanted: \"We look forward to seeing structured markup continue to grow on the web, powering richer search results and new kinds of applications.\" (see ful article on <a href=\"http://googleblog.blogspot.de/2011/06/introducing-schemaorg-search-engines.html\" target=\"_self\">Google's blog</a>)
 
 ***Our goal is your online success!***
 
@@ -53,11 +52,9 @@ Why not go premium right away? Check out the detailed overview of <a href=\"http
 
  
 
-**Translators that contributed so far (thank you guys, you\'re awesome!)**
+**Translators that contributed so far (thank you guys, you're awesome!)**
 
 Danish: <a href=\"http://retiremyass.com/\" target=\"_blank\">Rasmus Lindgren</a>
-
-Italian:
 
 English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins\">WP Buddy</a>
 
