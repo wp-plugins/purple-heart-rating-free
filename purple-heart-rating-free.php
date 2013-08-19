@@ -1,12 +1,12 @@
 <?php
 /*
-Plugin Name: Purple Heart Rating (Free) by WPBuddy
+Plugin Name: Purple Heart Rating (Free) by wp-buddy
 Plugin URI: http://wp-buddy.com/plugins/purple-heart-rating/
 Description: The ultimate Rating plugin which will blow you away!
-Version: 1.0.3
-Author: WPBuddy
+Version: 1.1
+Author: wp-buddy
 Author URI: http://wp-buddy.com
-Text Domain: wpbph
+Text Domain: purple-heart-rating-free
 */
 /*  Copyright 2012-2013  WP-Buddy  (email : info@wp-buddy.com)
 
@@ -25,7 +25,10 @@ Text Domain: wpbph
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 
 /**
@@ -38,7 +41,7 @@ if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
  */
 function wpbphf_autoloader( $class_name ) {
 	$file = trailingslashit( dirname( __FILE__ ) ) . 'classes/' . strtolower( $class_name ) . '.php';
-	if( is_file( $file ) ) {
+	if ( is_file( $file ) ) {
 		require_once( $file );
 		return true;
 	}
@@ -50,7 +53,7 @@ function wpbphf_autoloader( $class_name ) {
 // registering the autoloader function
 try {
 	spl_autoload_register( 'wpbphf_autoloader', true );
-} catch( Exception $e ) {
+} catch ( Exception $e ) {
 	function __autoload( $class_name ) {
 		wpbph_autoloader( $class_name );
 	}

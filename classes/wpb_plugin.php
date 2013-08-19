@@ -2,16 +2,15 @@
 
 /**
  * @package    WPBuddy Plugin
- * @subpackage Purple Heart Rating (Free)
+ * @subpackage Google Drive CDN
  */
 
 if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
-
 /**
  * Provides some general Plugin functions
  * Use the on_activation and on_deactivation function in child classes
  *
- * @version 2.7.2
+ * @version 2.8.1
  */
 class WPB_Plugin implements WPB_Plugin_Interface {
 
@@ -86,6 +85,14 @@ class WPB_Plugin implements WPB_Plugin_Interface {
 	 */
 	protected $_auto_update = false;
 
+
+	/**
+	 * The URL to the settings page where the purchase code can be entered
+	 * @since 2.8
+	 * @var string
+	 */
+	public $_purchase_code_settings_page_url = '';
+
 	/**
 	 * __construct function.
 	 *
@@ -131,6 +138,9 @@ class WPB_Plugin implements WPB_Plugin_Interface {
 
 		// is fired when upgrading a plugin
 		$this->upgrade();
+
+		// brings up a notice to enter the purchase code
+		add_action( 'admin_notices', array( &$this, 'purchase_code_warning' ) );
 	}
 
 
@@ -140,12 +150,12 @@ class WPB_Plugin implements WPB_Plugin_Interface {
 	 *
 	 * @access public
 	 * @return void
-	 * @since 1.0
+	 * @since 1.0 using oad_textdomain
+	 * @since 2.7.3 using load_plugin_textdomain
 	 */
 	public function load_translation() {
 		// we can find the translation in the assets/langs/{plugin-name} folder
-		load_textdomain( $this->get_textdomain(), $this->_plugin_path . '/assets/langs/' . $this->get_plugin_name_sanitized() . '/' . get_locale() . '.mo' );
-
+		load_plugin_textdomain( $this->get_textdomain(), false, $this->get_plugin_name_sanitized() . '/assets/langs/' );
 	}
 
 
@@ -305,6 +315,9 @@ class WPB_Plugin implements WPB_Plugin_Interface {
 				}
 			}
 		}
+
+		// set the transient no matter what happend to prevent doing the same remote_post over and over again
+		set_site_transient( 'wpb_plugin_update_' . $this->get_plugin_name_sanitized(), array(), 60 * 60 * 24 );
 
 		return false;
 	}
@@ -581,7 +594,7 @@ class WPB_Plugin implements WPB_Plugin_Interface {
 	 */
 	public function upgrade() {
 		// this is for testing only
-		//update_option( 'wpb_plugin_' . $this->get_plugin_name_sanitized() . '_version', '1.4' );
+		//update_option( 'wpb_plugin_' . $this->get_plugin_name_sanitized() . '_version', '1.1.2' );
 
 		// update the version (this comes later then the following lines)
 		// this is to make sure to only upgrade once each version
@@ -613,6 +626,43 @@ class WPB_Plugin implements WPB_Plugin_Interface {
 	 */
 	public function set_new_version() {
 		update_option( 'wpb_plugin_' . $this->get_plugin_name_sanitized() . '_version', $this->get_plugin_version() );
+	}
+
+
+	/**
+	 * Shows a purchase code warning
+	 * @since 2.8
+	 */
+	public function purchase_code_warning() {
+		if( ! isset( $_GET['page'] ) ) return;
+		if( ! isset( $this->_pagehook ) ) return;
+
+		global $hook_suffix;
+		if( ! isset( $hook_suffix ) ) return;
+
+		if( $hook_suffix != $this->_pagehook ) return;
+		if( ! method_exists( $this, 'get_purchase_code' ) ) return;
+
+		$purchase_code = $this->get_purchase_code();
+		if( ! empty( $purchase_code ) ) return false;
+
+		?>
+		<div class="updated">
+			<p><?php echo sprintf( __( 'You should consider entering you purchase code for the %s plugin because you get every update immediately delivered to your WordPress installation.', $this->get_textdomain() ), '<a href="' . $this->_purchase_code_settings_page_url . '">' . $this->get_plugin_full_name() . '</a>' ); ?></p>
+		</div>
+	<?php
+
+	}
+
+	/**
+	 * Returns the plugins full name
+	 * @since 2.8
+	 */
+	public function get_plugin_full_name() {
+		$plugin_data = get_plugin_data( $this->get_plugin_file(), false, true );
+		if( ! isset( $plugin_data['Name'] ) ) return '';
+		if( empty( $plugin_data['Name'] ) ) return '';
+		return $plugin_data['Name'];
 	}
 
 

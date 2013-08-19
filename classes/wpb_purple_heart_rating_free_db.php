@@ -148,10 +148,9 @@ class WPB_Purple_Heart_Rating_Free_Db {
 	 *
 	 */
 	public static function get_time_back() {
-		$time_back = WPB_Purple_Heart_Rating::get_option_static( 'ip_save_time' );
+		$time_back = WPB_Purple_Heart_Rating_Free::get_option_static( 'ip_save_time' );
 		if( is_int( $time_back ) && 0 == $time_back ) return 0;
 		if( '' == $time_back ) return 31536000; // 1 year in seconds
-		$time_back = $time_back * 3600;
 		return $time_back;
 	}
 

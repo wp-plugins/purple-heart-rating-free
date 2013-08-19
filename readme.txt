@@ -1,85 +1,76 @@
 === Purple Heart Rating (Free) ===
-Contributors: wp-buddy
+Contributors: wp-buddy, DavidAltmann, AnzeigenSpezialist
 Donate link: http://wp-buddy.com/inlink/purple-heart-wp-donate
-Tags: rich snippets, google rich snippets stars, google stars, search results
+Tags: rich snippets, google rich snippets stars, google stars, search results, article rating, rating, seo, rich snippets
 Requires at least: 3.5
-Tested up to: 3.5.1
-Stable tag: 1.0.3
+Tested up to: 3.6
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin helps you to generate these stars in search results by including some special HTML-tags called microdata. But even more: It allows the user to rate the current page, post or custom post type.
+This rating plugin allows your readers to rate and comment. It creates these stars in the search results which creates trust. To your online success!
 
 == Description ==
 
-Are you looking for a cool WordPress rating plugin which …
-* generate stars in Google’s search results,
-* offers your readers a pro-active way to give feedback about your site,
-* is highly customizable to you your needs?
+**Purple Heart Rating Plugin for Wordpress**
 
-Look no further, because you may have found just what you have been looking for: [Purple Heart Rating WordPress Plugin](http://wp-buddy.com/inlink/purple-heart-wp)! Our goal is your (blogging) success!
+This cool and customizable rating plugin is the \'new kid on the blog\' and was created by online marketers for online marketers and with them in mind. We at <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy - your specialist for Wordpress Plugins\">WP Buddy</a> wanted to create something that \'scratches our own itch\', meaning: a rating plugin that
 
-And this is how the free version works:
+*   is easy to set up,
+*   makes it easy for the website visitors to rate and also invites them to comment,
+*   is customizable to your own gusto, and
 
-A) Set up your Purple Heart Rating Plugin within WordPress Admin Panel
+*   leaves away any unnecessary gizmos.
 
-B) Wait till some users have rated your posts and/or pages
+There is a **free and a premium version** for this plugin. Naturally, while the free version will help to create these much wanted stars in the search results through the implementation of schema.org microdata, it lacks some of the key features that the premium version has. To see a comparison of the free and premium version of Purple Heart Rating Plugin, see here: <a href=\"http://wp-buddy.com/heartrating-wordpress\" target=\"_blank\" title=\"Free and Premium Version of Purple Heart Rating Plugin\">http://wp-buddy.com/heartrating-wordpress</a>
 
-C) To see what author data Google can extract from your page, use the Rich Snippet Testing Tool.
+ 
 
-D) Anything doesn't work?
+**FEATURES & BENEFITS**
 
-* Read the [Purple Heart Rating WordPress Plugin FAQ](http://wp-buddy.com/inlink/purple-heart-faq-wp) here (for the PRO-Version but should help you as well)
+(where marked with * the feature is only available in the premium version)
 
-E) Need more styling options as well as more icons?
+*   *Rating of articles, pages, custom posts, products, images*: no matter what you want to have rated, your readers can rate it and this way create some much needed <span style=\"text-decoration: underline;\">social proof</span>
+*   *stars in the search results*: you can enhance your visibilty and your trust by offering your website visitors a chance to rate your content
+*   *customize*: nobody is alike, therefore you can adjust the color, size etc of the graphic-user interface and give it your personal flavor (the premium version also contains different icons to choose from)
+*   *feedback option*:* based on the latest Wikipedia feedback option this feature invites your website visitors after rating in a discrete way to also send you feedback about the site so your offerings get better and better
+*   *import existing ratings from GD Star Rating*: this allows you to keep all your existing GD Star Rating data by clicking only one button!
+*   *Top-10 Widget for your sidebar**: implement this widget and your website visitors will see which articles/products/... have been rated the most by other website visitors
+*   *Plugin shortcode**: by using the shortcode [purple\_heart\_rating] you can place the plugin practically anywhere on any page, rather than just on the top or bottom
+*   *Rating of comments**: allows your website visitors to give a heart to comments from others
+*   *Sorting of comments based on rating**: The best-rated comments will move up so that they can be seen immediately by others, adding to the value of the conversation
+*   *Support within 48 hours**: Issues can always appear in the case of plugins, since there might be a conflict with other plugins or with the used theme; we\'ll be here when needed (note: please understand that we do not offer support for the free version but you are welcome to inform us about technical bugs related to the Purple Heart Rating Plugin, of course)
 
-* Check out the [extended edition](http://wp-buddy.com/inlink/purple-heart-wp) of this rating plugin for WordPress!
+ 
 
-F) Need support?
+You are not convinced that stars in the search results can create trust? Don\'t take our word for it, but Google\'s! Google says that Rich Snippets (where the stars are created) are highly wanted: \"We look forward to seeing structured markup continue to grow on the web, powering richer search results and new kinds of applications.\" (see ful article on <a href=\"http://googleblog.blogspot.de/2011/06/introducing-schemaorg-search-engines.html\" target=\"_self\">Google\'s blog</a>)
 
-* Unfortunately we can not offer support for free plugins. Please [buy the Pro version](http://wp-buddy.com/inlink/purple-heart-wp) to get support. Thank you!
+***Our goal is your online success!***
 
-G) Looking for a WordPress Theme which fully supports schema.org microdata?
+ 
 
-* Check out the [Schema.org WordPress Theme](http://bit.ly/1198uUA)
+Why not go premium right away? Check out the detailed overview of <a href=\"http://wp-buddy.com/heartrating-wordpress\" target=\"_blank\" title=\"Purple Heart Rating Plugin\">features & benefits of the Purple Heart Rating Plugin</a>!
 
-= If you have any further questions, please =
+ 
 
-* go to the [support-forum of this plugin](http://wordpress.org/support/plugin/purple-heart-rating-free) to get support by the community.
-* if you need support by the author of this plugin, please [buy the extended edition](http://wp-buddy.com/inlink/purple-heart-wp). Thanks very much!
+**Translators that contributed so far (thank you guys, you\'re awesome!)**
+
+Danish: <a href=\"http://retiremyass.com/\" target=\"_blank\">Rasmus Lindgren</a>
+
+Italian:
+
+English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins\">WP Buddy</a>
 
 == Installation ==
 
-1. Upload the purple-heart-rating-free folder to the /wp-content/plugins/ directory.
-2. Activate the Purple Heart Rating plugin through the „Plugins“ menu in WordPress.
-3. Then:
+Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
+== Frequently Asked Questions ==
 
-A) Configure the plugin by going to the „Purple Heart Rating“ menu that appears in your settings menu.
+You have questions about the Purple Heart Rating Plugin? Good, we got answers! :)
 
-B) Wait till some users have rated your posts and/or pages
+You can find our FAQ section here:
 
-C) To see what author data Google can extract from your page, use the Rich Snippet Testing Tool.
-
-D) Anything doesn't work?
-
-* Read the [Purple Heart Rating WordPress Plugin FAQ](http://wp-buddy.com/inlink/purple-heart-faq-wp) here (for the PRO-Version but should help you as well)
-
-E) Need more styling options as well as more icons?
-
-* Check out the [extended edition](http://wp-buddy.com/inlink/purple-heart-wp) of this rating plugin for WordPress!
-
-F) Need support?
-
-* Unfortunately we can not offer support for free plugins. Please [buy the Pro version](http://wp-buddy.com/inlink/purple-heart-wp) to get support. Thank you!
-
-G) Looking for a WordPress Theme which fully supports schema.org microdata?
-
-* Check out the [Schema.org WordPress Theme](http://bit.ly/1198uUA)
-
-= If you have any further questions, please =
-
-* go to the [support-forum of this plugin](http://wordpress.org/support/plugin/purple-heart-rating-free) to get support by the community.
-* if you need support by the author of this plugin, please [buy the extended edition](http://wp-buddy.com/inlink/purple-heart-wp). Thanks very much!
+<a href=\"http://wp-buddy.com/documentation/plugins/purple-heart-rating/faq/\" target=\"_blank\" title=\"Purple Heart Rating Plugin: FAQ\">http://wp-buddy.com/documentation/plugins/purple-heart-rating/faq/</a> `[youtube http://www.youtube.com/watch?v=0Q0vS2B_QsQ]` `[youtube http://www.youtube.com/watch?v=vqvvcFvCTJs]` `[youtube http://www.youtube.com/watch?v=GlIRv2xjQWI]` `[youtube http://www.youtube.com/watch?v=6coeRBkaWlc]` `[youtube http://www.youtube.com/watch?v=wkZddhIKQwM]` `[youtube http://www.youtube.com/watch?v=8z0Tb1J9JUc]`
 
 == Frequently asked questions ==
 
@@ -100,8 +91,14 @@ G) Looking for a WordPress Theme which fully supports schema.org microdata?
 
 == Changelog ==
 
+= 1.1 =
+* Update: Updated WP-Buddy Plugin Framework
+* Improvement: Now using load_plugin_textdomain instead of load_textdomain
+* More compatibility with WordPress 3.6
+
 = 1.0.3 =
 * Fixed a problem where older logging entries get deleted to early
+* Fixed the "fatal error" problem on plugin activation
 
 = 1.0.2 =
 * Updated WP-Buddy Plugin Framework
