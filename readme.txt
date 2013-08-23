@@ -1,7 +1,7 @@
 === Purple Heart Rating (Free) ===
 Contributors: wp-buddy, DavidAltmann, AnzeigenSpezialist
 Donate link: http://wp-buddy.com/inlink/purple-heart-wp-donate
-Tags: rich snippets, google rich snippets stars, google stars, search results, article rating, rating, seo, rich snippets
+Tags: rich snippets, google rich snippets stars, google stars, search results, article rating, rating, seo, rich snippets, rating by page, rating by post, rating by post type, article feedback tool, custom wordpress plugin, feedback tool, page plugin, page rate, page rating, plugin wordpress, wikipedia, wikipedia style rating, wordpress rating, wordpress reviews plugin, review plugin, comments, comment plugin, page, post, rating, ratings, star, thumb, thumbs, vote, widget
 Requires at least: 3.5
 Tested up to: 3.6
 Stable tag: 1.1
@@ -40,9 +40,9 @@ There is a **free and a premium version** for this plugin. Naturally, while the 
 *   *Sorting of comments based on rating**: The best-rated comments will move up so that they can be seen immediately by others, adding to the value of the conversation
 *   *Support within 48 hours**: Issues can always appear in the case of plugins, since there might be a conflict with other plugins or with the used theme; we'll be here when needed (note: please understand that we do not offer support for the free version but you are welcome to inform us about technical bugs related to the Purple Heart Rating Plugin, of course)
 
- 
+[youtube http://www.youtube.com/watch?v=vqvvcFvCTJs]
 
-You are not convinced that stars in the search results can create trust? Don't take our word for it, but Google's! Google says that Rich Snippets (where the stars are created) are highly wanted: \"We look forward to seeing structured markup continue to grow on the web, powering richer search results and new kinds of applications.\" (see ful article on <a href=\"http://googleblog.blogspot.de/2011/06/introducing-schemaorg-search-engines.html\" target=\"_self\">Google's blog</a>)
+You are not convinced that stars in the search results can create trust? Don't take our word for it, but Google's! Google says that Rich Snippets (where the stars are created) are highly wanted: "We look forward to seeing structured markup continue to grow on the web, powering richer search results and new kinds of applications." (see ful article on <a href=\"http://googleblog.blogspot.de/2011/06/introducing-schemaorg-search-engines.html\" target=\"_self\">Google's blog</a>)
 
 ***Our goal is your online success!***
 
@@ -50,13 +50,14 @@ You are not convinced that stars in the search results can create trust? Don't t
 
 Why not go premium right away? Check out the detailed overview of <a href=\"http://wp-buddy.com/heartrating-wordpress\" target=\"_blank\" title=\"Purple Heart Rating Plugin\">features & benefits of the Purple Heart Rating Plugin</a>!
 
- 
 
 **Translators that contributed so far (thank you guys, you're awesome!)**
 
 Danish: <a href=\"http://retiremyass.com/\" target=\"_blank\">Rasmus Lindgren</a>
 
 English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins\">WP Buddy</a>
+
+You would like to contribute to Purple Heart Rating Plugin by offering a free translation? Perfect! Please contact us through our contact form, indicating the language and we can send you the .po file. As a thank you you will get the Premium Version of our rating plugin for free and we will be happy to mention you here. <a href=\"http://wp-buddy.com/contact/\">Contact</a>
 
 == Installation ==
 
