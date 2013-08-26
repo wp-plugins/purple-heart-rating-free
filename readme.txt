@@ -1,7 +1,7 @@
 === Purple Heart Rating (Free) ===
 Contributors: wp-buddy, DavidAltmann, AnzeigenSpezialist
 Donate link: http://wp-buddy.com/inlink/purple-heart-wp-donate
-Tags: rich snippets, google rich snippets stars, google stars, search results, article rating, rating, seo, rich snippets, rating by page, rating by post, rating by post type, article feedback tool, custom wordpress plugin, feedback tool, page plugin, page rate, page rating, plugin wordpress, wikipedia, wikipedia style rating, wordpress rating, wordpress reviews plugin, review plugin, comments, comment plugin, page, post, rating, ratings, star, thumb, thumbs, vote, widget
+Tags: rich snippets, google rich snippets stars, google stars, search results, article rating, rating, seo, rich snippets, rating by page, rating by post, rating by post type, article feedback tool, custom wordpress plugin, feedback tool, page plugin, page rate, page rating, plugin wordpress, wikipedia, wikipedia style rating, wordpress rating, wordpress reviews plugin, review plugin, comments, comment plugin, page, post, rating, ratings, star, thumb, thumbs, vote, widget, micro data, schema.org,
 Requires at least: 3.5
 Tested up to: 3.6
 Stable tag: 1.1
@@ -21,7 +21,7 @@ This cool and customizable rating plugin is the 'new kid on the blog' and was cr
 *   is customizable to your own gusto, and
 *   leaves away any unnecessary gizmos.
 
-There is a **free and a premium version** for this plugin. Naturally, while the free version will help to create these much wanted stars in the search results through the implementation of schema.org microdata, it lacks some of the key features that the premium version has. To see a comparison of the free and premium version of Purple Heart Rating Plugin, see here: <a href=\"http://wp-buddy.com/heartrating-wordpress\" target=\"_blank\" title=\"Free and Premium Version of Purple Heart Rating Plugin\">http://wp-buddy.com/heartrating-wordpress</a>
+There is a **free and a premium version** for this plugin. While the free version will as well help to create these much wanted stars in the search results (through the implementation of schema.org micro data), naturally the premium version offers you a nice range of more useful key features. To see a comparison of the free and premium version of Purple Heart Rating Plugin, see here: <a href=\"http://wp-buddy.com/heartrating-wordpress\" target=\"_blank\" title=\"Free and Premium Version of Purple Heart Rating Plugin\">http://wp-buddy.com/heartrating-wordpress</a>
 
 [youtube http://www.youtube.com/watch?v=0Q0vS2B_QsQ]
 
@@ -34,10 +34,10 @@ There is a **free and a premium version** for this plugin. Naturally, while the 
 *   *customize*: nobody is alike, therefore you can adjust the color, size etc of the graphic-user interface and give it your personal flavor (the premium version also contains different icons to choose from)
 *   *feedback option*:* based on the latest Wikipedia feedback option this feature invites your website visitors after rating in a discrete way to also send you feedback about the site so your offerings get better and better
 *   *import existing ratings from GD Star Rating*: this allows you to keep all your existing GD Star Rating data by clicking only one button!
-*   *Top-10 Widget for your sidebar**: implement this widget and your website visitors will see which articles/products/... have been rated the most by other website visitors
-*   *Plugin shortcode**: by using the shortcode [purple\_heart\_rating] you can place the plugin practically anywhere on any page, rather than just on the top or bottom
-*   *Rating of comments**: allows your website visitors to give a heart to comments from others
-*   *Sorting of comments based on rating**: The best-rated comments will move up so that they can be seen immediately by others, adding to the value of the conversation
+*   Top-10 Widget for your sidebar*: implement this widget and your website visitors will see which articles/products/... have been rated the most by other website visitors
+*   Plugin shortcode*: by using the shortcode [purple\_heart\_rating] you can place the plugin practically anywhere on any page, rather than just on the top or bottom
+*   Rating of comments*: allows your website visitors to give a heart to comments from others
+*   Sorting of comments based on rating*: The best-rated comments will move up so that they can be seen immediately by others, adding to the value of the conversation
 *   *Support within 48 hours**: Issues can always appear in the case of plugins, since there might be a conflict with other plugins or with the used theme; we'll be here when needed (note: please understand that we do not offer support for the free version but you are welcome to inform us about technical bugs related to the Purple Heart Rating Plugin, of course)
 
 [youtube http://www.youtube.com/watch?v=vqvvcFvCTJs]
@@ -57,7 +57,7 @@ Danish: <a href=\"http://retiremyass.com/\" target=\"_blank\">Rasmus Lindgren</a
 
 English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins\">WP Buddy</a>
 
-You would like to contribute to Purple Heart Rating Plugin by offering a free translation? Perfect! Please contact us through our contact form, indicating the language and we can send you the .po file. As a thank you you will get the Premium Version of our rating plugin for free and we will be happy to mention you here. <a href=\"http://wp-buddy.com/contact/\">Contact</a>
+You would like to contribute to Purple Heart Rating Plugin by offering a free translation? Perfect! Please contact us through our <a href=\"http://wp-buddy.com/contact/\">contact form</a>, indicating the language and we can send you the .po file. As a thank you you will get the Premium Version of our rating plugin for free and we will be happy to mention you here.
 
 == Installation ==
 
