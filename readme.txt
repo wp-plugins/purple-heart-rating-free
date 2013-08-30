@@ -4,7 +4,7 @@ Donate link: http://wp-buddy.com/inlink/purple-heart-wp-donate
 Tags: rich snippets, google rich snippets stars, google stars, search results, article rating, rating, seo, rich snippets, rating by page, rating by post, rating by post type, article feedback tool, custom wordpress plugin, feedback tool, page plugin, page rate, page rating, plugin wordpress, wikipedia, wikipedia style rating, wordpress rating, wordpress reviews plugin, review plugin, comments, comment plugin, page, post, rating, ratings, star, thumb, thumbs, vote, widget, micro data, schema.org,
 Requires at least: 3.5
 Tested up to: 3.6
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -88,6 +88,9 @@ You can find our FAQ section here:
 
 
 == Changelog ==
+
+= 1.2 =
+* Added language translations from the PRO version (de_DE, es_ES, da_DK, it_IT)
 
 = 1.1 =
 * Update: Updated WP-Buddy Plugin Framework

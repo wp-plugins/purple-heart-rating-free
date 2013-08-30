@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /**
- * @version 1.1
+ * @version 1.2
  */
 class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 
@@ -48,7 +48,7 @@ class WPB_Purple_Heart_Rating_Free extends WPB_Plugin {
 	 * @access private
 	 * @since  1.0
 	 */
-	public $_plugin_version = '1.1';
+	public $_plugin_version = '1.2';
 
 
 	/**
