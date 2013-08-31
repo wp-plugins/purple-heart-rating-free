@@ -55,7 +55,7 @@ Why not go premium right away? Check out the detailed overview of <a href=\"http
 
 Danish: <a href=\"http://retiremyass.com/\" target=\"_blank\">Rasmus Lindgren</a>
 
-English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins\">WP Buddy</a>
+English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins and Themes\">WP Buddy</a>
 
 Spanish: José @ <a href=\"http://alguada.es/\" target=\"_blank\">alguada.es</a>
 
