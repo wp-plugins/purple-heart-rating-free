@@ -57,6 +57,8 @@ Danish: <a href=\"http://retiremyass.com/\" target=\"_blank\">Rasmus Lindgren</a
 
 English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins\">WP Buddy</a>
 
+Spanish: José @ <a href=\"http://alguada.es/\" target=\"_blank\">alguada.es</a>
+
 You would like to contribute to Purple Heart Rating Plugin by offering a free translation? Perfect! Please contact us through our <a href=\"http://wp-buddy.com/contact/\">contact form</a>, indicating the language and we can send you the .po file. As a thank you you will get the Premium Version of our rating plugin for free and we will be happy to mention you here.
 
 == Installation ==
