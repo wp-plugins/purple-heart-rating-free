@@ -2,9 +2,9 @@
 Contributors: wp-buddy, DavidAltmann, AnzeigenSpezialist
 Donate link: http://wp-buddy.com/inlink/purple-heart-wp-donate
 Tags: rich snippets, google rich snippets stars, google stars, search results, article rating, rating, seo, rich snippets, rating by page, rating by post, rating by post type, article feedback tool, custom wordpress plugin, feedback tool, page plugin, page rate, page rating, plugin wordpress, wikipedia, wikipedia style rating, wordpress rating, wordpress reviews plugin, review plugin, comments, comment plugin, page, post, rating, ratings, star, thumb, thumbs, vote, widget, micro data, schema.org,
-Requires at least: 3.5
-Tested up to: 3.6
-Stable tag: 1.2
+Requires at least: 3.5 
+Tested up to: 3.6 
+Stable tag: 1.2 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,7 +55,7 @@ Why not go premium right away? Check out the detailed overview of <a href=\"http
 
 Danish: <a href=\"http://retiremyass.com/\" target=\"_blank\">Rasmus Lindgren</a>
 
-English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins\">WP Buddy</a>
+English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins and Themes\">WP Buddy</a>
 
 Spanish: José @ <a href=\"http://alguada.es/\" target=\"_blank\">alguada.es</a>
 
