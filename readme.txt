@@ -3,8 +3,8 @@ Contributors: wp-buddy, DavidAltmann, AnzeigenSpezialist
 Donate link: http://wp-buddy.com/inlink/purple-heart-wp-donate
 Tags: rich snippets, google rich snippets stars, google stars, search results, article rating, rating, seo, rich snippets, rating by page, rating by post, rating by post type, article feedback tool, custom wordpress plugin, feedback tool, page plugin, page rate, page rating, plugin wordpress, wikipedia, wikipedia style rating, wordpress rating, wordpress reviews plugin, review plugin, comments, comment plugin, page, post, rating, ratings, star, thumb, thumbs, vote, widget, micro data, schema.org,
 Requires at least: 3.5
-Tested up to: 3.6
-Stable tag: 1.2
+Tested up to: 3.8
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,9 +55,9 @@ Why not go premium right away? Check out the detailed overview of <a href=\"http
 
 Danish: <a href=\"http://retiremyass.com/\" target=\"_blank\">Rasmus Lindgren</a>
 
-English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins and Themes\">WP Buddy</a>
+English & German: <a href=\"http://wp-buddy.com/\" target=\"_blank\" title=\"WP Buddy, your specialist for Wordpress Plugins\">WP Buddy</a>
 
-Spanish: <a href=\"http://alguada.es/\" target=\"_blank\">Alguada</a>
+Spanish: José @ <a href=\"http://alguada.es/\" target=\"_blank\">alguada.es</a>
 
 You would like to contribute to Purple Heart Rating Plugin by offering a free translation? Perfect! Please contact us through our <a href=\"http://wp-buddy.com/contact/\">contact form</a>, indicating the language and we can send you the .po file. As a thank you you will get the Premium Version of our rating plugin for free and we will be happy to mention you here.
 
@@ -90,6 +90,12 @@ You can find our FAQ section here:
 
 
 == Changelog ==
+
+= 1.3 =
+* In general: made the plugin compatible with WP 3.8
+* Copied Japanese language translations from the PRO version
+* Updated Bootstrap CSS
+* Updated Font Awesome
 
 = 1.2 =
 * Added language translations from the PRO version (de_DE, es_ES, da_DK, it_IT)

@@ -65,7 +65,7 @@ class WPB_Purple_Heart_Rating_Free_Metaboxes {
 	<div class="wpbph-social">
 		<p>
 
-		<div class="g-plusone" data-size="medium" data-href="http://wp-buddy.com/products/plugins/purple-heart-rating-wordpress-plugin/"></div>
+		<div class="g-plusone" data-size="medium" data-href="http://purpleheartratingplugin.com/"></div>
 		</p>
 
 		<script type="text/javascript">
@@ -80,11 +80,11 @@ class WPB_Purple_Heart_Rating_Free_Metaboxes {
 		</script>
 
 		<p>
-		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwp-buddy.com%2Fproducts%2Fplugins%2Fpurple-heart-rating-wordpress-plugin%2F&amp;send=false&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>
+		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fpurpleheartratingplugin.com%2F&amp;send=false&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>
 		</p>
 
 		<p>
-			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://wp-buddy.com/products/plugins/purple-heart-rating-wordpress-plugin/" data-text="Check out the Purple Heart Rating WordPress Plugin" data-related="wp_buddy">Tweet</a>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://purpleheartratingplugin.com/" data-text="Check out the Purple Heart Rating WordPress Plugin" data-related="wp_buddy">Tweet</a>
 		</p>
 		<script>!function( d, s, id ) {
 			var js, fjs = d.getElementsByTagName( s )[0];

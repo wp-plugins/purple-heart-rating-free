@@ -1,0 +1,732 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Purple Heart Rating\n"
+"POT-Creation-Date: 2013-12-02 10:00+0100\n"
+"PO-Revision-Date: 2013-12-02 10:00+0100\n"
+"Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../classes/wpb_plugin.php:733
+#, php-format
+msgid ""
+"You should consider entering you purchase code for the %s plugin because you "
+"get every update immediately delivered to your WordPress installation."
+msgstr ""
+"%sのプロダクトコードを入力するとプラグインアップデートが自動でワードプレスの"
+"インストールに直ちに送られます。"
+
+#: ../../classes/wpb_purple_heart_rating.php:479
+#: ../../classes/wpb_purple_heart_rating.php:480
+#: ../../classes/wpb_purple_heart_rating.php:1490
+msgid "Purple Heart Rating"
+msgstr "Purple Heartの評価"
+
+#: ../../classes/wpb_purple_heart_rating.php:487
+#: ../../classes/wpb_purple_heart_rating.php:2638
+msgid "Logs"
+msgstr "ログ"
+
+#: ../../classes/wpb_purple_heart_rating.php:512
+msgid "Rate us with a heart, or not!"
+msgstr "評価してください！"
+
+#: ../../classes/wpb_purple_heart_rating.php:513
+msgid "So that we are getting better and you have more benefits of our posts."
+msgstr "ポストやサービスの改善。"
+
+#: ../../classes/wpb_purple_heart_rating.php:514
+#: ../../classes/wpb_purple_heart_rating.php:515
+msgid "What?"
+msgstr "何を？"
+
+#: ../../classes/wpb_purple_heart_rating.php:516
+msgid ""
+"We want to know what you think about this site. Share your feedback with the "
+"author - and help us to improve this page."
+msgstr ""
+"このサイトについての意見をお聞かせください。ページ改善のためフィードバックを"
+"シェアしてください。"
+
+#: ../../classes/wpb_purple_heart_rating.php:546
+msgid "What else would you like to tell the webmaster about this website?"
+msgstr "ウェブサイトについてウェブマスターにメッセージを書きますか？"
+
+#: ../../classes/wpb_purple_heart_rating.php:547
+msgid "Thanks for rating"
+msgstr "評価をありがとうございます！"
+
+#: ../../classes/wpb_purple_heart_rating.php:609
+msgid "Settings updated."
+msgstr "設定がアップデートされました。"
+
+#: ../../classes/wpb_purple_heart_rating.php:619
+msgid "Preview"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating.php:620
+msgid "Layout"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating.php:621
+msgid "Comment-box popup window"
+msgstr "コメントボックスのポップアップウィンドウ"
+
+#: ../../classes/wpb_purple_heart_rating.php:622
+#: ../../classes/wpb_purple_heart_rating.php:623
+msgid "Options"
+msgstr "オプション"
+
+#: ../../classes/wpb_purple_heart_rating.php:626
+msgid "About"
+msgstr "について"
+
+#: ../../classes/wpb_purple_heart_rating.php:627
+msgid "Like this plugin?"
+msgstr "このプラグインをお気に入りに追加しますか？"
+
+#: ../../classes/wpb_purple_heart_rating.php:629
+msgid "Subscribe to our free newsletter"
+msgstr "無料のニュースレターを購読"
+
+#: ../../classes/wpb_purple_heart_rating.php:631
+msgid "Helpful links"
+msgstr "便利なリンク"
+
+#: ../../classes/wpb_purple_heart_rating.php:638
+#: ../../classes/wpb_purple_heart_rating.php:2439
+msgid "Purple Heart Rating Settings"
+msgstr "Purple Heart 評価設定"
+
+#: ../../classes/wpb_purple_heart_rating.php:798
+msgid ""
+"You have no posts in your database. Please add one to see the rating preview "
+"here."
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating.php:879
+#: ../../classes/wpb_purple_heart_rating.php:890
+#: ../../classes/wpb_purple_heart_rating.php:1764
+msgid "+1"
+msgstr "+1"
+
+#: ../../classes/wpb_purple_heart_rating.php:883
+#: ../../classes/wpb_purple_heart_rating.php:894
+#: ../../classes/wpb_purple_heart_rating.php:1765
+msgid "-1"
+msgstr "-1"
+
+#: ../../classes/wpb_purple_heart_rating.php:884
+#, fuzzy, php-format
+msgid "%s Ratings so far"
+msgstr "まだ評価がありません"
+
+#: ../../classes/wpb_purple_heart_rating.php:941
+msgid "Switch"
+msgstr "変更"
+
+#: ../../classes/wpb_purple_heart_rating.php:972
+msgid "WordPress Rating Plugin by WP-Buddy"
+msgstr "WP-Buddyのワードプレス評価のプラグイン"
+
+#: ../../classes/wpb_purple_heart_rating.php:975
+msgid "(PREVIEW MODE)"
+msgstr "（プレビューモード）"
+
+#: ../../classes/wpb_purple_heart_rating.php:1005
+msgid "Sorry, we cannot proceed your comment."
+msgstr "コメントできませんでした。"
+
+#: ../../classes/wpb_purple_heart_rating.php:1021
+msgid "Sorry, the post you are trying to comment on does not exist."
+msgstr "コメントを付けたいポストが見つかりません。"
+
+#: ../../classes/wpb_purple_heart_rating.php:1033
+msgid "Anonymous"
+msgstr "匿名"
+
+#: ../../classes/wpb_purple_heart_rating.php:1051
+msgid "Sorry, your comment could not be saved."
+msgstr "コメントを保存できませんでした。"
+
+#: ../../classes/wpb_purple_heart_rating.php:1059
+msgid "Thanks for your comment!"
+msgstr "コメントをありがとうございます！"
+
+#: ../../classes/wpb_purple_heart_rating.php:1078
+#: ../../classes/wpb_purple_heart_rating.php:1792
+#: ../../classes/wpb_purple_heart_rating.php:1797
+msgid "Sorry, we cannot proceed your rating."
+msgstr "評価できませんでした。"
+
+#: ../../classes/wpb_purple_heart_rating.php:1094
+msgid "Sorry, the post you are trying to rate does not exist."
+msgstr "評価したいポストが見つかりません。"
+
+#: ../../classes/wpb_purple_heart_rating.php:1107
+msgid "You have already rated this post. Thank you!"
+msgstr "ポストへの評価ありがとうございました！"
+
+#: ../../classes/wpb_purple_heart_rating.php:1538
+msgid "Start customizing your purple heart rating plugin"
+msgstr "Purple Heartの評価のカスタマイズを開始"
+
+#: ../../classes/wpb_purple_heart_rating.php:1539
+msgid "Please help to improve this plugin and allow tracking."
+msgstr "プラグインを改善するために追跡を許可して下さい。"
+
+#: ../../classes/wpb_purple_heart_rating.php:1551
+msgid "Not now!"
+msgstr "後で"
+
+#: ../../classes/wpb_purple_heart_rating.php:1565
+msgid "Okay!"
+msgstr "する"
+
+#: ../../classes/wpb_purple_heart_rating.php:1606
+msgid "Sorry, we cannot proceed this action."
+msgstr "このアクションを続行することはできません。"
+
+#: ../../classes/wpb_purple_heart_rating.php:1625
+msgid "Options updated!"
+msgstr "オプションの更新"
+
+#: ../../classes/wpb_purple_heart_rating.php:1639
+msgid "Settings"
+msgstr "設定"
+
+#: ../../classes/wpb_purple_heart_rating.php:1640
+msgid "More Plugins by WPBuddy"
+msgstr "WPBuddyの他のプラグイン"
+
+#: ../../classes/wpb_purple_heart_rating.php:1813
+msgid "Sorry, the comment you are trying to rate on does not exist."
+msgstr "評価したいコメントが見つかりません。"
+
+#: ../../classes/wpb_purple_heart_rating.php:1826
+msgid "You have already rated this comment. Thank you!"
+msgstr "コメントへの評価ありがとうございました！"
+
+#: ../../classes/wpb_purple_heart_rating.php:1868
+msgid "Sorry, your rating could not be saved."
+msgstr "評価を保存できませんでした。"
+
+#: ../../classes/wpb_purple_heart_rating.php:1876
+msgid "Thanks for your rating!"
+msgstr "評価をありがとうございます！"
+
+#: ../../classes/wpb_purple_heart_rating.php:2194
+msgid "Could not find GD Star Rating table!"
+msgstr "GD Star Ratingのデーターベースのテーブルが見つかりません。"
+
+#: ../../classes/wpb_purple_heart_rating.php:2207
+msgid ""
+"Successfully imported from GD Star rating! GD Star Rating has been "
+"deactivated."
+msgstr ""
+"GD Star Ratingのインポートが成功しました。GD Star Rating が無効になりました。"
+
+#: ../../classes/wpb_purple_heart_rating.php:2210
+msgid "Could not import your data from the GD Star Rating plugin."
+msgstr "GD Star Ratingからデータをインポートできませんでした。"
+
+#: ../../classes/wpb_purple_heart_rating.php:2280
+msgid "Error while refreshing the current ratings."
+msgstr "評価更新中のエラー"
+
+#: ../../classes/wpb_purple_heart_rating.php:2393
+msgid "Your name (optional)"
+msgstr "名前（オプション）"
+
+#: ../../classes/wpb_purple_heart_rating.php:2399
+msgid "Your E-Mail (optional)"
+msgstr "メール（オプション）"
+
+#: ../../classes/wpb_purple_heart_rating.php:2406
+msgid "Your comment"
+msgstr "コメント"
+
+#: ../../classes/wpb_purple_heart_rating.php:2411
+msgid "Close"
+msgstr "閉じる"
+
+#: ../../classes/wpb_purple_heart_rating.php:2414
+msgid "Send"
+msgstr "送信"
+
+#: ../../classes/wpb_purple_heart_rating.php:2667
+msgid "Items per page"
+msgstr "ページの表示数"
+
+#: ../../classes/wpb_purple_heart_rating.php:2684
+msgid ""
+"Are you sure you want to do this? This will remove all database tables as "
+"well as your ratings. The plugin will then de-activate itself."
+msgstr "データベースや評価を消去し、プラグインを最適化します。よろしいですか？"
+
+#: ../../classes/wpb_purple_heart_rating.php:2685
+msgid "Yes, uninstall and deactivate this plugin!"
+msgstr "はい、プラグインをアンインストールし無効する"
+
+#: ../../classes/wpb_purple_heart_rating.php:2686
+msgid "No, do not uninstall!"
+msgstr "いいえ、アンインストールしません"
+
+#: ../../classes/wpb_purple_heart_rating.php:2737
+#: ../../classes/wpb_purple_heart_rating_db_view.php:45
+msgid "Rating"
+msgstr "評価"
+
+#: ../../classes/wpb_purple_heart_rating.php:2738
+msgid "Votes"
+msgstr "投票"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:44
+msgid "Rated on"
+msgstr "評価日付"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:46
+msgid "ID"
+msgstr "ID"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:47
+msgid "Time"
+msgstr "時間"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:48
+msgid "IP Address (anonymized)"
+msgstr "IPアドレス（匿名）"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:49
+msgid "Post ID"
+msgstr "ポストのID"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:50
+msgid "Comment ID"
+msgstr "コメントのID"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:274
+#: ../../classes/wpb_purple_heart_rating_db_view.php:303
+msgid "Delete"
+msgstr "削除"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:309
+msgid "Post is no longer available"
+msgstr "ポストが利用できません"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:311
+msgid "Post:"
+msgstr "ポスト："
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:316
+msgid "Comment is no longer available "
+msgstr "コメントが利用できません"
+
+#: ../../classes/wpb_purple_heart_rating_db_view.php:318
+msgid "Comment:"
+msgstr "コメント："
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:46
+msgid "Installation manual"
+msgstr "インストール説明書"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:49
+msgid "Frequently Asked Questions"
+msgstr " FAQ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:52
+msgid "Report a bug"
+msgstr "バグを報告する"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:55
+msgid "Request a function"
+msgstr "機能を要求"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:58
+msgid "Submit a translation"
+msgstr "翻訳文を提出する"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:61
+msgid "More cool stuff by WPBuddy"
+msgstr "WPBuddyのオススメ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:124
+msgid "Your first name"
+msgstr "名前"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:126
+msgid "Your E-Mail address"
+msgstr "メールアドレス"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:128
+msgid "Subscribe for free"
+msgstr "無料で購読する"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:167
+msgid "Icon"
+msgstr "アイコン"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:180
+msgid "Color"
+msgstr "色"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:186
+msgid "Headline"
+msgstr "見出し"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:193
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:205
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:217
+msgid "activate / deactivate"
+msgstr "有効/無効"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:198
+msgid "Description"
+msgstr "説明"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:210
+msgid "\"More Button\" label"
+msgstr "More Buttonのラベル"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:222
+msgid "Popover headline"
+msgstr "ポップオーバーの見出し"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:227
+msgid "Popover description"
+msgstr "ポップオーバーの説明"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:232
+msgid "Show total number of ratings"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:237
+msgid "Width of the info area"
+msgstr "インフォメーションのエリアの広さ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:239
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:245
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:251
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:257
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:263
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:269
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:275
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:281
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:287
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:293
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:299
+msgid "px, em or %"
+msgstr "px、em、%"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:243
+msgid "Width of the rating area"
+msgstr "評価エリアの広さ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:249
+msgid "Rating buttons width"
+msgstr "評価ボタンの広さ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:255
+msgid "Headline font size"
+msgstr "見出しのフォントサイズ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:261
+msgid "Description font size"
+msgstr "フォントサイズの設定"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:267
+msgid "\"More button\" label font size"
+msgstr "More Buttonのラベルフォントサイズ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:273
+msgid "Popover headline font size"
+msgstr "ポップオーバーの見出しのフォントサイズ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:279
+msgid "Popover description font size"
+msgstr "ポップオーバーの説明のフォントサイズ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:285
+msgid "Positive percentage font size"
+msgstr "正の割合のフォントサイズ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:291
+msgid "Negative percentage font size"
+msgstr "負の割合のフォントサイズ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:297
+msgid "Icon size"
+msgstr "アイコンのサイズ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:303
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:306
+#, php-format
+msgid ""
+"Here you can add your custom css. Please note that some of your changes "
+"might not appear on this page because WordPress sometimes overwrites it. "
+"Read more on this here: %s."
+msgstr ""
+"ここでカスタムCSSを入力できます。ワードプレスが上書きされたために変更履歴が表"
+"示されない場合がありますのでご注意ください。詳しくは： %s."
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:306
+msgid "How to style the rating plugin"
+msgstr "プラグイン評価のスタイルの仕方"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:310
+msgid "Switch rating positions"
+msgstr "評価の順番を変更"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:315
+msgid "Reset to defaults"
+msgstr "デフォルトの設定"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:334
+msgid "Where to display the rating?"
+msgstr "評価の提示場所？"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:338
+msgid "Before the content"
+msgstr "内容の前"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:341
+msgid "After the content"
+msgstr "内容の後"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:343
+msgid "Within the comment fields"
+msgstr "コメントのフィールド内"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:355
+msgid "On which post types?"
+msgstr "ポストの種類"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:357
+msgid "Nothing"
+msgstr "ない"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:368
+msgid "Allow comment rating"
+msgstr "コメントの評価を許可する"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:372
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:386
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:433
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:447
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:471
+msgid "Yes"
+msgstr "はい"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:375
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:389
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:436
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:450
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:474
+msgid "No"
+msgstr "いいえ"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:378
+msgid "Choose \"Yes\" if you want to allow rating the comments."
+msgstr "コメントの評価を許可する場合には「はい」を選択してださい。"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:382
+msgid "Sort the comments"
+msgstr "コメントを並び替え"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:392
+msgid ""
+"Choose \"Yes\" if you want the plugin to sort the comments depending on the "
+"ratings."
+msgstr "評価を基にコメントを並び替える場合には「はい」を選択してください。"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:396
+msgid "Log Save Time"
+msgstr "ログの保存時間"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:398
+msgid "hours (Keep empty to save for the maximum duration = 365 days)"
+msgstr "時間（最大限度は３６５日間）"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:402
+msgid "Add Javascript to Footer"
+msgstr "フッターにJavascriptを追加する"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:407
+msgid ""
+"Adding the Javascripts to the footer will sometimes help to get the plugin "
+"to work."
+msgstr ""
+"javascriptをフッターに追加することでプラグインを有効にできる場合があります。"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:411
+msgid "Add jQuery"
+msgstr "jQueryを追加する"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:416
+msgid ""
+"This should only be activated if your theme is using an older version of "
+"jQuery. Please note that this can stop some of your javascripts to work "
+"properly. You should consider updating your theme to the latest version "
+"instead."
+msgstr ""
+"jQueryのバージョンが古い場合にのみ有効です。javascriptが機能しなくなる場合が"
+"ありますのでご注意ください。代わりにテーマを最新バージョンに更新することをオ"
+"ススメします。"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:420
+msgid "Use jQuery in noConflict-mode"
+msgstr "jQueryをnoConflictモードで使用する"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:425
+msgid ""
+"This can be activated if you are using more than just one jQuery version."
+msgstr "１つ以上のjQueryバージョンを使用している場合有効です。"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:429
+msgid "Show \"powered by\"?"
+msgstr "\"powered by\"を表示?"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:439
+msgid ""
+"Whether the \"Rating Plugin by WPBuddy\" link should be shown underneath the "
+"Rating Plugin."
+msgstr "Rating Plugin by WPBuddyをプラグインの下に提示？"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:443
+msgid "Allow tracking?"
+msgstr "追跡を許可しますか？"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:454
+msgid "This helps us to improve the plugin. Thank you!"
+msgstr "プラグインを改善へのご協力ありがとうございます。"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:454
+msgid "More info about what we track."
+msgstr "追跡情報の詳細はこちら。"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:467
+msgid "Display comment-box after rating?"
+msgstr "評価後コメントボックスを表示しますか？"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:479
+msgid "Popup headline"
+msgstr "ポップアップ見出し"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:484
+msgid "Popup text"
+msgstr "ポップアップ文字"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:501
+msgid "Purchase Code"
+msgstr "プロダクトコード"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:504
+#, php-format
+msgid ""
+"In order to get automatic updates you should enter your purchase code. If "
+"you do not know where you can find your purchase code, read this: %s"
+msgstr ""
+"プロダクトコードを入力すると自動アップデートを行います。プロダクトコードが分"
+"からない場合：%s"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:504
+msgid "How to find your purchase code"
+msgstr "プロダクトコードの見つけ方"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:510
+msgid "GD Star Rating detected"
+msgstr "GD Star Ratingを見つけました"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:511
+msgid "Import data from the GD Star Rating Plugin"
+msgstr "GD Star Ratingのプラグインからデータをインポートする"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:514
+msgid ""
+"By clicking this button all ratings generated by the GD Star Rating plugin "
+"will be imported to the Purple Heart Rating Plugin. After that the GD Star "
+"Rating Plugin will be deactivated. Important: this will overwrite your "
+"existing Purple Heart Ratings."
+msgstr ""
+"このボタンをクリックするとGD Star Ratingの評価がPurple Heartのプラグイン上に"
+"インポートされます。その後GD Star Ratingは無効になります。注意；今までの"
+"Purple Heartのデータを上書きします。"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:522
+msgid "Show all Purple Heart comments"
+msgstr "Purple Heartのコメントをすべて表示"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:524
+msgid "Uninstall the plugin"
+msgstr "プラグインをアンインストールする"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:584
+msgid "Deactivate Rating on this page"
+msgstr "このページの評価を無効にします"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:585
+msgid "Reset rating after saving"
+msgstr "保存した後に評価をリセットする"
+
+#: ../../classes/wpb_purple_heart_rating_metaboxes.php:586
+msgid "Resetting the rating will remove all ratings! Use carefully!"
+msgstr "評価をリセットするとすべての評価を削除します。ご注意ください。"
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:27
+msgid "WPBuddy: Purple Heart Top Ratings"
+msgstr "WPBuddy: Purple Heartのトップ評価"
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:28
+msgid "Shows the top 10 posts, pages or custom post types"
+msgstr "トップ１０のポスト、ページ、ポストの種類を表示"
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:106
+msgid "No posts with ratings so far"
+msgstr "まだ評価がありません"
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:184
+msgid "Top 10 posts"
+msgstr "ポストのトップ１０"
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:208
+msgid "Title:"
+msgstr "タイトル："
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:213
+msgid "Number of posts"
+msgstr "ポストの数"
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:219
+msgid "Sorting"
+msgstr "並び替え"
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:221
+msgid "The posts with the highest rating are listed first"
+msgstr "評価の高いポストから"
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:222
+msgid "The posts with the highest number of votes are listed first"
+msgstr "投票の高いポストから"
+
+#: ../../classes/widgets/wpb_purple_heart_rating_widget.php:225
+msgid "Post Types"
+msgstr "ポストの種類"
+
+#~ msgid "General"
+#~ msgstr "全般"
+
+#~ msgid "Customize"
+#~ msgstr "カスタマイズ"
+
+#~ msgid "Other"
+#~ msgstr "その他"
