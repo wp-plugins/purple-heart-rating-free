@@ -1,0 +1,643 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Purple Heart Rating\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-29 17:18+0100\n"
+"PO-Revision-Date: 2013-08-29 17:19+0100\n"
+"Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
+"Language-Team: WP-Buddy <info@wp-buddy.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../classes/wpb_plugin.php:651
+#, php-format
+msgid ""
+"You should consider entering you purchase code for the %s plugin because you "
+"get every update immediately delivered to your WordPress installation."
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:134
+msgid ""
+"The Purple Heart Plugin (Free Version) has been deactivated because the PRO-"
+"Version is installed."
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:136
+#: ../../classes/wpb_purple_heart_rating_free.php:142
+msgid "Go back to the plugins section"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:140
+msgid ""
+"The Purple Heart Plugin (Free Version) cannot be activated because the PRO-"
+"Version is installed already."
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:219
+#: ../../classes/wpb_purple_heart_rating_free.php:220
+msgid "Purple Heart Rating"
+msgstr "Purple Heart Bewertung"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:248
+msgid "Rate us with a heart, or not!"
+msgstr "Rate os med et hjerte, eller lad være!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:249
+msgid "So that we are getting better and you have more benefits of our posts."
+msgstr "Så vi bliver bedre og du får flere fordele af vores artikler."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:250
+#: ../../classes/wpb_purple_heart_rating_free.php:251
+msgid "What?"
+msgstr "Hvad?"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:252
+msgid ""
+"We want to know what you think about this site. Share your feedback with the "
+"author - and help us to improve this page."
+msgstr ""
+"Vi vil gerne vide hvad du mener om dette site. Del dine tanker med "
+"forfatteren - og hjælp os med at forbedre denne side."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:317
+msgid "Settings updated."
+msgstr "Indstillinger blev opdateret."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:327
+msgid "General"
+msgstr "Generelt"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:330
+msgid "About"
+msgstr "Om os"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:332
+msgid "Like this plugin?"
+msgstr "Kan du lide dette plugin?"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:334
+msgid "Discover"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:336
+msgid "Helpful links"
+msgstr "Nyttige links"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:338
+msgid "Grab our free newsletter!"
+msgstr "Tilmeld dig vores gratis nyhedsbrev"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:344
+msgid "Purple Heart Rating Settings"
+msgstr "Purple Heart Rating Indstillinger"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:553
+#: ../../classes/wpb_purple_heart_rating_free.php:563
+msgid "+1"
+msgstr "+1"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:557
+#: ../../classes/wpb_purple_heart_rating_free.php:567
+msgid "-1"
+msgstr "-1"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:578
+msgid "WordPress Rating Plugin by WPBuddy"
+msgstr "WordPress Rating Plugin af WPBuddy"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:609
+msgid "Sorry, we cannot proceed your rating."
+msgstr "Beklager, vi kan ikke behandle din rating."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:625
+msgid "Sorry, the post you are trying to rate does not exist."
+msgstr "Beklager, artiklen du prøver at rate findes ikke."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:638
+msgid "You have already rated this post. Thank you!"
+msgstr "Du har allerede ratet denne artikel. Mange tak!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:959
+msgid "Start customizing your purple heart rating plugin"
+msgstr "Start med at tilpasse dit Purple Heart Rating plugin"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:960
+msgid "Please help to improve this plugin and allow tracking."
+msgstr "Hjælp venligst med at forbedre dette plugin og tillad sporing."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:972
+msgid "Not now!"
+msgstr "Ikke nu!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:986
+msgid "Okay!"
+msgstr "Okay!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1026
+msgid "Sorry, we cannot proceed this action."
+msgstr "Beklager, vi kan ikke udføre denne handling."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1045
+msgid "Options updated!"
+msgstr "Indstillinger opdateret!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1059
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1060
+msgid "More Plugins by WPBuddy"
+msgstr "Flere Plugins af WPBuddy"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1116
+msgid "Could not find GD Star Rating table!"
+msgstr "Kunne ikke finde GD Star Rating tabel!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1129
+msgid ""
+"Successfully imported from GD Star rating! GD Star Rating has been "
+"deactivated."
+msgstr ""
+"Dine GD Start Rating indstillinger blev importeret. GD Star Rating er nu "
+"blevet deaktiveret."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1132
+msgid "Could not import your data from the GD Star Rating plugin."
+msgstr "Kunne ikke importere dine data fra GD Star Rating pluing'et."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1155
+msgid "Error while refreshing the current ratings."
+msgstr "Fejl mens de nuværende ratings blev opdateret."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1372
+#, php-format
+msgid ""
+"&ldquo;Servus %s! You have been using the free version of the Purple Heart "
+"Rating Plugin.&rdquo;"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1373
+msgid "&ldquo;Maybe it's a good time to upgrade now to the pro-version?&rdquo;"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1374
+msgid ""
+"&ldquo;Join many others who are benefitting from the full list of features "
+"for their online success!&rdquo;"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1378
+msgid "Dave - Marketing-Buddy"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1379
+msgid "Flow - Code-Buddy"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1380
+msgid "Duke - Design-Buddy"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1383
+msgid "COMPARE free & pro"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:44
+msgid "Installation manual"
+msgstr "Installationsmanual (engelsk)"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:45
+msgid "Frequently Asked Questions"
+msgstr "Ofte Stillede Spørgsmål"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:47
+msgid "Report a bug"
+msgstr "Rapporter en fejl (engelsk)"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:49
+msgid "Request a function"
+msgstr "Foreslå en funktion (engelsk)"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:52
+msgid "Submit a translation"
+msgstr "Indsend en oversættelse (engelsk)"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:54
+msgid "More cool stuff by WPBuddy"
+msgstr "Flere fede ting fra WPBuddy"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:113
+msgid "Your first name"
+msgstr "Dit fornavn"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:114
+msgid "Your E-Mail address"
+msgstr "Din e-mail adresse"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:116
+msgid "Subscribe for free"
+msgstr "Tilmeld dig gratis"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:145
+msgid "Customize"
+msgstr "Tilpas"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:148
+msgid "Headline"
+msgstr "Overskrift"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:153
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:158
+msgid "\"More Button\" label"
+msgstr "\"Mere Knap\" beskrivelse"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:163
+msgid "\"More Button\" headline"
+msgstr "\"Mere Knap\" beskrivelse"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:168
+msgid "\"More Button\" description"
+msgstr "\"Mere Knap\" beskrivelse"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:172
+msgid "Reset to defaults"
+msgstr "Nulstil til standardindstillinger"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:174
+msgid "Options"
+msgstr "Muligheder"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:187
+msgid "On which post types?"
+msgstr "På hvilke artikel typer?"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:200
+msgid "IP Save Time"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:202
+msgid "hours (Keep empty to save for the maxium duration = 365 days)"
+msgstr "timer (efterlad tom for at gemme maks varighed = 365 dage)"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:206
+msgid "Allow tracking?"
+msgstr "Tillad tracking?"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:208
+msgid "Yes"
+msgstr "Ja"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:209
+msgid "No"
+msgstr "Nej"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:213
+msgid "This helps us to improve the plugin. Thank you!"
+msgstr "Dette hjælper os med at forbedre plugin'et. Mange tak!"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:213
+msgid "More info about what we track."
+msgstr "Mere om de informationer vi tracker."
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:218
+msgid "Other"
+msgstr "Andet"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:221
+msgid "GD Star Rating detected"
+msgstr "GD Star Rating Plugin fundet"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:222
+msgid "Import data from the GD Star Rating Plugin"
+msgstr "Importer data fra GD Star Rating Plugin'et"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:225
+msgid ""
+"By clicking this button all ratings generated by the GD Star Rating plugin "
+"will be imported to the Purple Heart Rating Plugin. After that the GD Star "
+"Rating Plugin will be deactivated. Important: this will overwrite your "
+"existing Purple Heart Ratings."
+msgstr ""
+"Ved at klikke på denne knap vil alle ratings fra GD Star Rating plugin'et "
+"blive importeret til Purple Heart Rating plugin'et. Herefter vil GD Star "
+"Rating plugin'et blive deaktiveret. Vigtigt: dette vil overskrive dine "
+"nuværende Purple Heart Ratings."
+
+#~ msgid "Logs"
+#~ msgstr "Log filer"
+
+#~ msgid "What else would you like to tell the webmaster about this website?"
+#~ msgstr "Hvad vil du ellers fortæller webmasteren om dette site?"
+
+#~ msgid "Thanks for rating"
+#~ msgstr "Mange tak for din stemme"
+
+#~ msgid "Switch"
+#~ msgstr "Skift"
+
+#~ msgid "Sorry, we cannot proceed your comment."
+#~ msgstr "Beklager, vi kan ikke bearbejde din kommentar. "
+
+#~ msgid "Sorry, the post you are trying to comment on does not exist."
+#~ msgstr "Beklager, artiklen du prøver at kommentere eksisterer ikke."
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonym"
+
+#~ msgid "Sorry, your comment could not be saved."
+#~ msgstr "Beklager, din kommentar kunne ikke gemmes."
+
+#~ msgid "Thanks for your comment!"
+#~ msgstr "Mange tak for din kommentar!"
+
+#~ msgid "Sorry, the comment you are trying to rate on does not exist."
+#~ msgstr "Beklager, kommentaren du prøver at rate findes ikke ikke."
+
+#~ msgid "You have already rated this comment. Thank you!"
+#~ msgstr "Du har allerede ratet denne kommentar. Mange tak!"
+
+#~ msgid "Sorry, your rating could not be saved."
+#~ msgstr "Beklager, din rating kunne ikke gemmes."
+
+#~ msgid "Thanks for your rating!"
+#~ msgstr "Mange tak for din rating!"
+
+#~ msgid "Your name (optional)"
+#~ msgstr "Dit navn (valgfrit)"
+
+#~ msgid "Your E-Mail (optional)"
+#~ msgstr "Din E-Mail (valgfrit)"
+
+#~ msgid "Your comment"
+#~ msgstr "Din kommentar"
+
+#~ msgid "Close"
+#~ msgstr "Luk"
+
+#~ msgid "Send"
+#~ msgstr "Send"
+
+#~ msgid "Items per page"
+#~ msgstr "Emner per side"
+
+#~ msgid ""
+#~ "Are you sure you want to do this? This will remove all database tables as "
+#~ "well as your ratings. The plugin will then de-activate itself."
+#~ msgstr ""
+#~ "Er du sikker på at du vil udføre handlingen? Det vil fjerne alle database "
+#~ "tabeller og rating. Plugin'et vil derefter de-aktivere sig selv."
+
+#~ msgid "Yes, uninstall and deactivate this plugin!"
+#~ msgstr "Ja, afinstaller og deaktivere dette plugin!"
+
+#~ msgid "No, do not uninstall!"
+#~ msgstr "Nej, afinstaller ikke!"
+
+#~ msgid "Rating"
+#~ msgstr "Rating"
+
+#~ msgid "Votes"
+#~ msgstr "Stemmer"
+
+#~ msgid "Rated on"
+#~ msgstr "Rated den"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Time"
+#~ msgstr "Tid"
+
+#~ msgid "IP Address (anonymized)"
+#~ msgstr "IP-Adresse (anonymiseret)"
+
+#~ msgid "Post ID"
+#~ msgstr "Artikel ID"
+
+#~ msgid "Comment ID"
+#~ msgstr "Kommentar ID"
+
+#~ msgid "Delete"
+#~ msgstr "Slet"
+
+#~ msgid "Post is no longer available"
+#~ msgstr "Artiklen er ikke tilgængelig længere"
+
+#~ msgid "Post:"
+#~ msgstr "Artikel:"
+
+#~ msgid "Comment is no longer available "
+#~ msgstr "Kommentaren er ikke tilgængelig længere."
+
+#~ msgid "Comment:"
+#~ msgstr "Kommentar:"
+
+#~ msgid "Icon"
+#~ msgstr "Ikon"
+
+#~ msgid "Color"
+#~ msgstr "Farve"
+
+#~ msgid "activate / deactivate"
+#~ msgstr "aktiver / deaktiver"
+
+#~ msgid "Popover headline"
+#~ msgstr "Popover overskrift"
+
+#~ msgid "Popover description"
+#~ msgstr "Popover beskrivelse"
+
+#~ msgid "Width of the info area"
+#~ msgstr "Bredde på info området"
+
+#~ msgid "px, em or %"
+#~ msgstr "px, em eller %"
+
+#~ msgid "Width of the rating area"
+#~ msgstr "Bredde på rating området"
+
+#~ msgid "Rating buttons width"
+#~ msgstr "Rating knap bredde"
+
+#~ msgid "Headline font size"
+#~ msgstr "Overskrift skriftstørrelse"
+
+#~ msgid "Description font size"
+#~ msgstr "Beskrivelse skrifttype størrelse"
+
+#~ msgid "\"More button\" label font size"
+#~ msgstr "\"Mere knap\" beskrivelse skriftstørrelse"
+
+#~ msgid "Popover headline font size"
+#~ msgstr "Popover overskrift skriftstørrelse"
+
+#~ msgid "Popover description font size"
+#~ msgstr "Popover beskrivelse skriftstørrelse"
+
+#~ msgid "Positive percentage font size"
+#~ msgstr "Positiv procent skriftstørrelse"
+
+#~ msgid "Negative percentage font size"
+#~ msgstr "Negativ procent skriftstørrelse"
+
+#~ msgid "Icon size"
+#~ msgstr "Ikonstørrelse"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Tilpasset CSS"
+
+#~ msgid ""
+#~ "Here you can add your custom css. Please note that some of your changes "
+#~ "might not appear on this page because WordPress sometimes overwrites it. "
+#~ "Read more on this here: %s."
+#~ msgstr ""
+#~ "Her kan du tilføje din egen tilpassede CSS. Bemærk venligst at nogle af "
+#~ "dine ændringer måske ikke vil optræde på siden fordi WordPress kan finde "
+#~ "på at overskrive dem. Læs mere om dette her: %s."
+
+#~ msgid "How to style the rating plugin"
+#~ msgstr "Sådan styler du rating plugin'et"
+
+#~ msgid "Switch rating positions"
+#~ msgstr "Skift rating position"
+
+#~ msgid "Comment-box popup window"
+#~ msgstr "Kommentar popup vindue"
+
+#~ msgid "Display comment-box after rating?"
+#~ msgstr "Vis kommentar boks efter rating"
+
+#~ msgid "Popup headline"
+#~ msgstr "Popup overskrift"
+
+#~ msgid "Popup text"
+#~ msgstr "Popup text"
+
+#~ msgid "Where to display the rating?"
+#~ msgstr "Hvor skal ratingen vises?"
+
+#~ msgid "Before the content"
+#~ msgstr "Før indholdet"
+
+#~ msgid "After the content"
+#~ msgstr "Efter indholdet"
+
+#~ msgid "Within the comment fields"
+#~ msgstr "I kommentar feltet"
+
+#~ msgid "Allow comment rating"
+#~ msgstr "Tillad rating af kommentarer"
+
+#~ msgid "Choose \"Yes\" if you want to allow rating the comments."
+#~ msgstr "Vælg \"Ja\" hvis du vil tillade rating af kommentarer"
+
+#~ msgid "Sort the comments"
+#~ msgstr "Sorter kommentarene"
+
+#~ msgid ""
+#~ "Choose \"Yes\" if you want the plugin to sort the comments depending on "
+#~ "the ratings."
+#~ msgstr ""
+#~ "Vælg \"Ja\" hvis du vil have plugin'et til at sortere kommentarene efter "
+#~ "deres rating."
+
+#~ msgid "Add Javascript to Footer"
+#~ msgstr "Tilføj javascript til footeren"
+
+#~ msgid ""
+#~ "Adding the Javascripts to the footer will sometimes help to get the "
+#~ "plugin to work."
+#~ msgstr ""
+#~ "Det hjælper nogen gange på pluginet at tilføje javascriptet i footeren."
+
+#~ msgid "Add jQuery"
+#~ msgstr "Tilføj jQuery"
+
+#~ msgid ""
+#~ "This should only be activated if your theme is using an older version of "
+#~ "jQuery. Please note that this can stop some of your javascripts to work "
+#~ "properly. You should consider updating your theme to the latest version "
+#~ "instead."
+#~ msgstr ""
+#~ "Dette skal kun aktiveres hvis dit tema bruger en ældre version af jQuery. "
+#~ "Bemærk venligst at dette kan forhindre din eksisterende javascript i at "
+#~ "virke ordentligt. Du bør i stedet overveje at opdatere dit tema til den "
+#~ "nyeste version."
+
+#~ msgid "Use jQuery in noConflict-mode"
+#~ msgstr "Brug jQuery i noConflict tilstand"
+
+#~ msgid ""
+#~ "This can be activated if you are using more than just one jQuery version."
+#~ msgstr "Dette kan aktiveres hvis du bruger mere end en jQuery version."
+
+#~ msgid "Show \"powered by\"?"
+#~ msgstr "Vis \"powered by\"?"
+
+#~ msgid ""
+#~ "Whether the \"Rating Plugin by WPBuddy\" link should be shown underneath "
+#~ "the Rating Plugin."
+#~ msgstr "Om \"Rating Plugin by WPBuddy\" skal vises under Rating plugin'et."
+
+#~ msgid "Purchase Code"
+#~ msgstr "Købskode (Purchase Code)"
+
+#~ msgid ""
+#~ "In order to get automatic updates you should enter your purchase code. If "
+#~ "you do not know where you can find your purchase code, read this: %s"
+#~ msgstr ""
+#~ "For at modtage automatiske opfateringer bør du indtaste din købskode "
+#~ "(purchase code). Hvis du ikke ved hvor du kan finde denne, læs venligst "
+#~ "følgende: %s"
+
+#~ msgid "How to find your purchase code"
+#~ msgstr "Sådan finder du din købskode (Purchase Code) (engelsk)"
+
+#~ msgid "Show all Purple Heart comments"
+#~ msgstr "Vis alle Purple Heart kommentarer"
+
+#~ msgid "Uninstall the plugin"
+#~ msgstr "Afinstaller plugin'et"
+
+#~ msgid "Deactivate Rating on this page"
+#~ msgstr "Deaktiver rating på denne side"
+
+#~ msgid "WPBuddy: Purple Heart Top Ratings"
+#~ msgstr "WPBuddy: Purple Heart Top Ratings"
+
+#~ msgid "Shows the top 10 posts, pages or custom post types"
+#~ msgstr "Vis top 10 artikler, sider eller artikeltyper"
+
+#~ msgid "No posts with ratings so far"
+#~ msgstr "Ingen artikler med ratings indtil videre"
+
+#~ msgid "Top 10 posts"
+#~ msgstr "Top 10 artikler"
+
+#~ msgid "Title:"
+#~ msgstr "Titel:"
+
+#~ msgid "Number of posts"
+#~ msgstr "Antal artikler"
+
+#~ msgid "Post Types"
+#~ msgstr "Artikeltyper"
+
+#~ msgid "I have nothing to say"
+#~ msgstr "Ich möchte keinen Kommentar abgeben"
+
+#~ msgid "Send the above text to the author"
+#~ msgstr "Sende diesen Kommentar an den Autor"
+
+#~ msgid "on / off"
+#~ msgstr "aktivieren / deaktivieren"
