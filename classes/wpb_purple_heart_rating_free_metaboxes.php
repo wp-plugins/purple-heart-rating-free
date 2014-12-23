@@ -138,6 +138,9 @@ class WPB_Purple_Heart_Rating_Free_Metaboxes {
 	public function ads() {
 		$ads     = $this->get_ads();
 		$ads_max = count( $ads ) - 1;
+		if ( $ads_max <= 0 ) {
+			return;
+		}
 		$a_id    = mt_rand( 0, $ads_max );
 		echo '<a href="' . $ads[ $a_id ]['link'] . '" target="_blank"><img src="' . $ads[ $a_id ]['image'] . '" alt="Ad" /></a>';
 	}
