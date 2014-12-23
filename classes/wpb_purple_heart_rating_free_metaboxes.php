@@ -44,19 +44,19 @@ class WPB_Purple_Heart_Rating_Free_Metaboxes {
 		?>
 		<ul>
 			<li>
-				<a href="http://wp-buddy.com/documentations/plugins/purple-heart-rating/" target="_blank"><?php echo __( 'Installation manual', $this->_purple_heart->get_textdomain() ); ?></a>
+				<a href="http://wp-buddy.com/documentation/plugins/purple-heart-rating/" target="_blank"><?php echo __( 'Installation manual', $this->_purple_heart->get_textdomain() ); ?></a>
 			</li>
 			<li>
-				<a href="http://wp-buddy.com/documentations/plugins/purple-heart-rating/faq/" target="_blank"><?php echo __( 'Frequently Asked Questions', $this->_purple_heart->get_textdomain() ); ?></a>
+				<a href="http://wp-buddy.com/documentation/plugins/purple-heart-rating/faq/" target="_blank"><?php echo __( 'Frequently Asked Questions', $this->_purple_heart->get_textdomain() ); ?></a>
 			</li>
 			<li>
-				<a href="http://wp-buddy.com/documentations/plugins/purple-heart-rating/report-a-bug/" target="_blank"><?php echo __( 'Report a bug', $this->_purple_heart->get_textdomain() ); ?></a>
+				<a href="http://wp-buddy.com/documentation/plugins/purple-heart-rating/report-a-bug/" target="_blank"><?php echo __( 'Report a bug', $this->_purple_heart->get_textdomain() ); ?></a>
 			</li>
 			<li>
-				<a href="http://wp-buddy.com/documentations/plugins/purple-heart-rating/request-a-function/" target="_blank"><?php echo __( 'Request a function', $this->_purple_heart->get_textdomain() ); ?></a>
+				<a href="http://wp-buddy.com/documentation/plugins/purple-heart-rating/request-a-function/" target="_blank"><?php echo __( 'Request a function', $this->_purple_heart->get_textdomain() ); ?></a>
 			</li>
 			<li>
-				<a href="http://wp-buddy.com/documentations/plugins/purple-heart-rating/submit-a-translation/" target="_blank"><?php echo __( 'Submit a translation', $this->_purple_heart->get_textdomain() ); ?></a>
+				<a href="http://wp-buddy.com/documentation/plugins/purple-heart-rating/submit-a-translation/" target="_blank"><?php echo __( 'Submit a translation', $this->_purple_heart->get_textdomain() ); ?></a>
 			</li>
 			<li>
 				<a href="http://wp-buddy.com/" target="_blank"><?php echo __( 'More cool stuff by WPBuddy', $this->_purple_heart->get_textdomain() ); ?></a>
@@ -138,10 +138,10 @@ class WPB_Purple_Heart_Rating_Free_Metaboxes {
 	public function ads() {
 		$ads     = $this->get_ads();
 		$ads_max = count( $ads ) - 1;
-		if ( $ads_max <= 0 ) {
+		if ( $ads_max < 0 ) {
 			return;
 		}
-		$a_id    = mt_rand( 0, $ads_max );
+		$a_id = mt_rand( 0, $ads_max );
 		echo '<a href="' . $ads[ $a_id ]['link'] . '" target="_blank"><img src="' . $ads[ $a_id ]['image'] . '" alt="Ad" /></a>';
 	}
 
@@ -255,7 +255,7 @@ class WPB_Purple_Heart_Rating_Free_Metaboxes {
 	}
 
 	/**
-	 * Returns the adds
+	 * Returns the ads
 	 * @since  1.0
 	 * @access private
 	 * @return array
@@ -278,12 +278,12 @@ class WPB_Purple_Heart_Rating_Free_Metaboxes {
 
 		// some more options for the POST-call
 		$options = array(
-			'timeout'    => 30,
+			'timeout'    => 5,
 			'body'       => $post_elements,
-			'user-agent' => 'WordPress/' . $wp_version . '; ' . home_url()
+			'user-agent' => 'WordPress/' . $wp_version . '; ' . home_url(),
 		);
 
-		$data = wp_remote_post( 'http://wp-buddy.com/plugins/ads/', $options );
+		$data = wp_remote_post( 'https://wpbuddy.libra.uberspace.de/plugins/ads/', $options );
 
 		if ( ! is_wp_error( $data ) && 200 == $data['response']['code'] ) {
 			if ( $body = json_decode( $data['body'], true ) ) {
