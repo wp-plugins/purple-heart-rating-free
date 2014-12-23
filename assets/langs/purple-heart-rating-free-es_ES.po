@@ -1,0 +1,654 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Purple Heart Rating\n"
+"POT-Creation-Date: 2013-08-29 17:14+0100\n"
+"PO-Revision-Date: 2013-08-29 17:18+0100\n"
+"Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
+"Language-Team: José Antonio Martín <mailto:jamartin@alguada.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../classes/wpb_plugin.php:651
+#, php-format
+msgid ""
+"You should consider entering you purchase code for the %s plugin because you "
+"get every update immediately delivered to your WordPress installation."
+msgstr ""
+"Debes introducir el código de compra para el plugin %s porque así podrás "
+"disfrutar de las nuevas actualizaciones."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:134
+msgid ""
+"The Purple Heart Plugin (Free Version) has been deactivated because the PRO-"
+"Version is installed."
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:136
+#: ../../classes/wpb_purple_heart_rating_free.php:142
+msgid "Go back to the plugins section"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:140
+msgid ""
+"The Purple Heart Plugin (Free Version) cannot be activated because the PRO-"
+"Version is installed already."
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:219
+#: ../../classes/wpb_purple_heart_rating_free.php:220
+msgid "Purple Heart Rating"
+msgstr "Purple Heart Rating"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:248
+msgid "Rate us with a heart, or not!"
+msgstr "¿Te gusta?"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:249
+msgid "So that we are getting better and you have more benefits of our posts."
+msgstr "Califícanos para poder mejorar nuestos posts."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:250
+#: ../../classes/wpb_purple_heart_rating_free.php:251
+msgid "What?"
+msgstr "¿Qué te parece?"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:252
+msgid ""
+"We want to know what you think about this site. Share your feedback with the "
+"author - and help us to improve this page."
+msgstr ""
+"Queremos saber lo que piensas acerca de este sitio. Comparte tu opinión con "
+"el autor y ayúdanos a mejorar esta página."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:317
+msgid "Settings updated."
+msgstr "Configuración actualizada"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:327
+msgid "General"
+msgstr "General"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:330
+msgid "About"
+msgstr "Acerca de"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:332
+msgid "Like this plugin?"
+msgstr "¿Te gusta el plugin?"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:334
+msgid "Discover"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:336
+msgid "Helpful links"
+msgstr "Enlaces útiles"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:338
+msgid "Grab our free newsletter!"
+msgstr "Suscríbete gratis a nuestro boletín"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:344
+msgid "Purple Heart Rating Settings"
+msgstr "Configuración del Purple Heart Rating"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:553
+#: ../../classes/wpb_purple_heart_rating_free.php:563
+msgid "+1"
+msgstr "+1"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:557
+#: ../../classes/wpb_purple_heart_rating_free.php:567
+msgid "-1"
+msgstr "-1"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:578
+msgid "WordPress Rating Plugin by WPBuddy"
+msgstr "Plugin WordPress para Calificaciones por WPBuddy"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:609
+msgid "Sorry, we cannot proceed your rating."
+msgstr "Lo sentimos, no podemos proceder tu calificación."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:625
+msgid "Sorry, the post you are trying to rate does not exist."
+msgstr "Lo sentimos, no existe el post que tratas de calificar."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:638
+msgid "You have already rated this post. Thank you!"
+msgstr "Ya has calificado este post. ¡Gracias!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:959
+msgid "Start customizing your purple heart rating plugin"
+msgstr "Empieza a personalizar tu plugin Purple Heart Rating"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:960
+msgid "Please help to improve this plugin and allow tracking."
+msgstr "Por favor, ayuda a mejorar este plugin y permite el seguimiento."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:972
+msgid "Not now!"
+msgstr "¡Ahora no!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:986
+msgid "Okay!"
+msgstr "¡Vale!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1026
+msgid "Sorry, we cannot proceed this action."
+msgstr "Lo sentimos, no podemos continuar esta acción."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1045
+msgid "Options updated!"
+msgstr "¡Opciones actualizadas1"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1059
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1060
+msgid "More Plugins by WPBuddy"
+msgstr "Más Plugins por WPBuddy"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1116
+msgid "Could not find GD Star Rating table!"
+msgstr "¡No se puede encontrar la tabla GD Star Rating!"
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1129
+msgid ""
+"Successfully imported from GD Star rating! GD Star Rating has been "
+"deactivated."
+msgstr ""
+"¡Importación exitosa desde el GD Star rating! GD Star Rating está siendo "
+"desactivado."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1132
+msgid "Could not import your data from the GD Star Rating plugin."
+msgstr "No se pueden importar datos desde el plugin GD Star Rating."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1155
+msgid "Error while refreshing the current ratings."
+msgstr "Error al actualizar las calificaciones actuales."
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1372
+#, php-format
+msgid ""
+"&ldquo;Servus %s! You have been using the free version of the Purple Heart "
+"Rating Plugin.&rdquo;"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1373
+msgid "&ldquo;Maybe it's a good time to upgrade now to the pro-version?&rdquo;"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1374
+msgid ""
+"&ldquo;Join many others who are benefitting from the full list of features "
+"for their online success!&rdquo;"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1378
+msgid "Dave - Marketing-Buddy"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1379
+msgid "Flow - Code-Buddy"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1380
+msgid "Duke - Design-Buddy"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free.php:1383
+msgid "COMPARE free & pro"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:44
+msgid "Installation manual"
+msgstr "Manual de instalación"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:45
+msgid "Frequently Asked Questions"
+msgstr "Preguntas Frecuentes"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:47
+msgid "Report a bug"
+msgstr "Notificar un error"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:49
+msgid "Request a function"
+msgstr "Solicitar una función"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:52
+msgid "Submit a translation"
+msgstr "Enviar una traducción"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:54
+msgid "More cool stuff by WPBuddy"
+msgstr "Más cosas interesantes por WPBuddy"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:113
+msgid "Your first name"
+msgstr "Tu nombre"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:114
+msgid "Your E-Mail address"
+msgstr "Tu eMail"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:116
+msgid "Subscribe for free"
+msgstr "Suscríbete gratis"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:145
+msgid "Customize"
+msgstr "Personalizar"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:148
+msgid "Headline"
+msgstr "Título"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:153
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:158
+msgid "\"More Button\" label"
+msgstr "\"Más botones\" etiqueta"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:163
+msgid "\"More Button\" headline"
+msgstr "\"Más botones\" etiqueta"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:168
+msgid "\"More Button\" description"
+msgstr "\"Más botones\" etiqueta"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:172
+msgid "Reset to defaults"
+msgstr "Restablecer los valores predeterminados"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:174
+msgid "Options"
+msgstr "Opciones"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:187
+msgid "On which post types?"
+msgstr "¿En qué tipo de posts?"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:200
+msgid "IP Save Time"
+msgstr ""
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:202
+msgid "hours (Keep empty to save for the maxium duration = 365 days)"
+msgstr "horas (mantener vacío para ahorrar para la duración máxima = 365 días)"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:206
+msgid "Allow tracking?"
+msgstr "¿Permites el seguimiento?"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:208
+msgid "Yes"
+msgstr "Sí"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:209
+msgid "No"
+msgstr "No"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:213
+msgid "This helps us to improve the plugin. Thank you!"
+msgstr "Esto nos ayuda a mejorar el plugin. ¡Gracias!"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:213
+msgid "More info about what we track."
+msgstr "Más información sobre lo que hacemos en el seguimiento."
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:218
+msgid "Other"
+msgstr "Otros"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:221
+msgid "GD Star Rating detected"
+msgstr "GD Star Rating detectado"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:222
+msgid "Import data from the GD Star Rating Plugin"
+msgstr "Importar datos desde el GD Star Rating Plugin"
+
+#: ../../classes/wpb_purple_heart_rating_free_metaboxes.php:225
+msgid ""
+"By clicking this button all ratings generated by the GD Star Rating plugin "
+"will be imported to the Purple Heart Rating Plugin. After that the GD Star "
+"Rating Plugin will be deactivated. Important: this will overwrite your "
+"existing Purple Heart Ratings."
+msgstr ""
+"Haciendo clic en este botón se importarán todas las clasificaciones "
+"generadas por el plugin GD Star Rating en el plugin Purple Heart Rating. "
+"Después de eso se desactivará el plugin GD Star Rating. Importante: las "
+"calificaciones importadas se sobreescribirán a las existentes del Purple "
+"Heart Rating."
+
+#~ msgid "Logs"
+#~ msgstr "Registros"
+
+#~ msgid "What else would you like to tell the webmaster about this website?"
+#~ msgstr "¿Qué más te gustaría decirle al webmaster de este sitio web?"
+
+#~ msgid "Thanks for rating"
+#~ msgstr "Gracias por la calificación"
+
+#~ msgid "Switch"
+#~ msgstr "Cambio"
+
+#~ msgid "Sorry, we cannot proceed your comment."
+#~ msgstr "Lo sentimos, no podemos proceder tu comentario."
+
+#~ msgid "Sorry, the post you are trying to comment on does not exist."
+#~ msgstr "Lo sentimos, no existe el post que quieres comentar."
+
+#~ msgid "Anonymous"
+#~ msgstr "Anónimo"
+
+#~ msgid "Sorry, your comment could not be saved."
+#~ msgstr "Lo sentimos, tu comentario no puede ser guardado."
+
+#~ msgid "Thanks for your comment!"
+#~ msgstr "¡Gracias por tu comentario!"
+
+#~ msgid "Sorry, the comment you are trying to rate on does not exist."
+#~ msgstr "Lo sentimos, no existe el comentario que quiere calificar."
+
+#~ msgid "You have already rated this comment. Thank you!"
+#~ msgstr "Ya se ha clasificado este comentario. ¡Gracias!"
+
+#~ msgid "Sorry, your rating could not be saved."
+#~ msgstr "Lo sentimos, tu calificación no puede ser guardada."
+
+#~ msgid "Thanks for your rating!"
+#~ msgstr "¡Gracias por tu calificación!"
+
+#~ msgid "Your name (optional)"
+#~ msgstr "Tu nombre (opcional)"
+
+#~ msgid "Your E-Mail (optional)"
+#~ msgstr "Tu eMail (opcional)"
+
+#~ msgid "Your comment"
+#~ msgstr "Tu comentario"
+
+#~ msgid "Close"
+#~ msgstr "Cerrar"
+
+#~ msgid "Send"
+#~ msgstr "Enviar"
+
+#~ msgid "Items per page"
+#~ msgstr "Elementos por página"
+
+#~ msgid ""
+#~ "Are you sure you want to do this? This will remove all database tables as "
+#~ "well as your ratings. The plugin will then de-activate itself."
+#~ msgstr ""
+#~ "¿Seguro que quieres hacer esto? Esto eliminará todas las tablas de la "
+#~ "base de datos, así como tus calificaciones. El plugin entonces se "
+#~ "desactivará automáticamente."
+
+#~ msgid "Yes, uninstall and deactivate this plugin!"
+#~ msgstr "Sí, desinstalar y desactivar este plugin"
+
+#~ msgid "No, do not uninstall!"
+#~ msgstr "No desinstalar"
+
+#~ msgid "Rating"
+#~ msgstr "Calificaciones"
+
+#~ msgid "Votes"
+#~ msgstr "Votos"
+
+#~ msgid "Rated on"
+#~ msgstr "Calificado en"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Time"
+#~ msgstr "Tiempo"
+
+#~ msgid "IP Address (anonymized)"
+#~ msgstr "Dirección IP (anónima)"
+
+#~ msgid "Post ID"
+#~ msgstr "ID Post"
+
+#~ msgid "Comment ID"
+#~ msgstr "ID Comentario"
+
+#~ msgid "Delete"
+#~ msgstr "Eliminar"
+
+#~ msgid "Post is no longer available"
+#~ msgstr "El post ya no está disponible"
+
+#~ msgid "Post:"
+#~ msgstr "Post:"
+
+#~ msgid "Comment is no longer available "
+#~ msgstr "El comentario ya no está disponible"
+
+#~ msgid "Comment:"
+#~ msgstr "Comentario:"
+
+#~ msgid "Icon"
+#~ msgstr "Icono"
+
+#~ msgid "Color"
+#~ msgstr "Color"
+
+#~ msgid "activate / deactivate"
+#~ msgstr "activar / desactivar"
+
+#~ msgid "Popover headline"
+#~ msgstr "Título Popover"
+
+#~ msgid "Popover description"
+#~ msgstr "Dscripción Popover"
+
+#~ msgid "Width of the info area"
+#~ msgstr "Ancho del área de información"
+
+#~ msgid "px, em or %"
+#~ msgstr "px, em o %"
+
+#~ msgid "Width of the rating area"
+#~ msgstr "Ancho del área de calificación"
+
+#~ msgid "Rating buttons width"
+#~ msgstr "Ancho de los botones de calificaciones"
+
+#~ msgid "Headline font size"
+#~ msgstr "Tamaño de la fuente del título"
+
+#~ msgid "Description font size"
+#~ msgstr "Tamaño de la fuente de la descripción"
+
+#~ msgid "\"More button\" label font size"
+#~ msgstr "\"Más botones\" tamaño de la fuente de la etiqueta"
+
+#~ msgid "Popover headline font size"
+#~ msgstr "Tamaño de la fuente del título Popover"
+
+#~ msgid "Popover description font size"
+#~ msgstr "Tamaño de la fuente de la descripción Popover"
+
+#~ msgid "Positive percentage font size"
+#~ msgstr "Tamaño de la fuente del porcentaje positivo"
+
+#~ msgid "Negative percentage font size"
+#~ msgstr "Tamaño de la fuente del porcentaje negativo"
+
+#~ msgid "Icon size"
+#~ msgstr "Tamaño de los iconos"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Personalizar CSS"
+
+#~ msgid ""
+#~ "Here you can add your custom css. Please note that some of your changes "
+#~ "might not appear on this page because WordPress sometimes overwrites it. "
+#~ "Read more on this here: %s."
+#~ msgstr ""
+#~ "Aquí puedes añadir tu css personalizado. Por favor, ten en cuenta que "
+#~ "algunos de los cambios no pueden aparecer en esta página porque WordPress "
+#~ "a veces lo sobrescribe. Leer más sobre esto aquí: %s."
+
+#~ msgid "How to style the rating plugin"
+#~ msgstr "Elegir el estilo del plugin de calificación"
+
+#~ msgid "Switch rating positions"
+#~ msgstr "Cambiar las opciones de calificación"
+
+#~ msgid "Comment-box popup window"
+#~ msgstr "Ventaja emergente para la caja de comentarios"
+
+#~ msgid "Display comment-box after rating?"
+#~ msgstr "¿Mostrar la caja de comentarios después de las calificaciones?"
+
+#~ msgid "Popup headline"
+#~ msgstr "Título emergente"
+
+#~ msgid "Popup text"
+#~ msgstr "Texto emergente"
+
+#~ msgid "Where to display the rating?"
+#~ msgstr "¿Dónde mostrar las calificaciones?"
+
+#~ msgid "Before the content"
+#~ msgstr "Antes del contenido"
+
+#~ msgid "After the content"
+#~ msgstr "Después del contenido"
+
+#~ msgid "Within the comment fields"
+#~ msgstr "Dentro de los campos de comentario"
+
+#~ msgid "Nothing"
+#~ msgstr "Ninguno"
+
+#~ msgid "Allow comment rating"
+#~ msgstr "Permitir calificaciones en los comentarios"
+
+#~ msgid "Choose \"Yes\" if you want to allow rating the comments."
+#~ msgstr ""
+#~ "Elegir \"Sí\" si tu quieres permitir calificaciones en los comentarios."
+
+#~ msgid "Sort the comments"
+#~ msgstr "Ordenar los comentarios"
+
+#~ msgid ""
+#~ "Choose \"Yes\" if you want the plugin to sort the comments depending on "
+#~ "the ratings."
+#~ msgstr ""
+#~ "Elegir \"Sí\" si tu quieres que el plugin ordene los comentarios "
+#~ "dependiendo de las calificaciones"
+
+#~ msgid "Add Javascript to Footer"
+#~ msgstr "Añadir Javascript al pie de la página"
+
+#~ msgid ""
+#~ "Adding the Javascripts to the footer will sometimes help to get the "
+#~ "plugin to work."
+#~ msgstr ""
+#~ "Añadir los Javascripts al pie del sitio web a veces puede ayudar al "
+#~ "trabajo del plugin."
+
+#~ msgid "Add jQuery"
+#~ msgstr "Añadir jQuery"
+
+#~ msgid ""
+#~ "This should only be activated if your theme is using an older version of "
+#~ "jQuery. Please note that this can stop some of your javascripts to work "
+#~ "properly. You should consider updating your theme to the latest version "
+#~ "instead."
+#~ msgstr ""
+#~ "Esto sólo se debe activar si tu tema está utilizando una versión anterior "
+#~ "de jQuery. Por favor ten en cuenta que esto puede detener algunos de tu "
+#~ "archivos JavaScript para funcionar correctamente. Considera actualizar tu "
+#~ "tema a la última versión en su lugar."
+
+#~ msgid "Use jQuery in noConflict-mode"
+#~ msgstr "Utilizar jQuery en modo noConflict"
+
+#~ msgid ""
+#~ "This can be activated if you are using more than just one jQuery version."
+#~ msgstr "Esto puede activarse si utilizas más de una versión de jQuery."
+
+#~ msgid "Show \"powered by\"?"
+#~ msgstr "Ver \"desarrollado por\"?"
+
+#~ msgid ""
+#~ "Whether the \"Rating Plugin by WPBuddy\" link should be shown underneath "
+#~ "the Rating Plugin."
+#~ msgstr ""
+#~ "Si el \"Plugin de Calificaciones por WPBuddy\" el enlace debería ser "
+#~ "mostrado debajo de la calificación."
+
+#~ msgid "Purchase Code"
+#~ msgstr "Código de Compra"
+
+#~ msgid ""
+#~ "In order to get automatic updates you should enter your purchase code. If "
+#~ "you do not know where you can find your purchase code, read this: %s"
+#~ msgstr ""
+#~ "Para obtener actualizaciones automáticas es necesario introducir el "
+#~ "código de compra. Si no sabes donde se puede encontrar el código de "
+#~ "compra, Lee esto: %s"
+
+#~ msgid "How to find your purchase code"
+#~ msgstr "Cómo encontrar el código de compra"
+
+#~ msgid "Show all Purple Heart comments"
+#~ msgstr "Ver todos los comentarios de Purple Heart"
+
+#~ msgid "Uninstall the plugin"
+#~ msgstr "Desinstalar el plugin"
+
+#~ msgid "Deactivate Rating on this page"
+#~ msgstr "Desactivar las calificaciones en esta página"
+
+#~ msgid "Reset rating after saving"
+#~ msgstr "Reiniciar las calificaciones después de guardar"
+
+#~ msgid "Resetting the rating will remove all ratings! Use carefully!"
+#~ msgstr ""
+#~ "Reiniciando las calificaciones se eliminarán todas las calificaciones. "
+#~ "¡Ten cuidado!"
+
+#~ msgid "WPBuddy: Purple Heart Top Ratings"
+#~ msgstr "WPBuddy: Calificaciones más populares de Purple Heart"
+
+#~ msgid "Shows the top 10 posts, pages or custom post types"
+#~ msgstr ""
+#~ "Muestra los 10 posts, páginas o tipos de posts personalizados más "
+#~ "populares"
+
+#~ msgid "No posts with ratings so far"
+#~ msgstr "No hay posts con calificaciones hasta el momento"
+
+#~ msgid "Top 10 posts"
+#~ msgstr "10 Posts más populares"
+
+#~ msgid "Title:"
+#~ msgstr "Título:"
+
+#~ msgid "Number of posts"
+#~ msgstr "Número de posts"
+
+#~ msgid "Post Types"
+#~ msgstr "Tipos de Posts"
